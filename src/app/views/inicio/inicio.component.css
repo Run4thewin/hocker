@@ -1,0 +1,82 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.spacing {
+    height: 150px;
+}
+
+.btn-sabermas1 {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 7px;
+}
+
+.btn-sabermas1:hover {
+    background-color: #025ba8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding: 10px;
+}
+
+.btn-sabermas2 {
+    color:#004077;
+    border: 2px solid #004077;
+    padding: 7px;
+}
+
+.btn-sabermas2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    padding: 10px;
+}
+
+/*First screen*/
+
+.mainsection-img {
+    z-index: 0;
+    /*background: url(/SitioHocker/assets/mainsection-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    width: 100vw;
+    height: 90vh;
+}
+
+.mainsection-txt {
+    z-index: 1;
+    transform: translateX(27%);
+    align-self: center;
+    color: #fff;
+    background-color: #004077;
+    padding: 2.5%;
+    border-radius: 25px;
+    font-size: 50px;
+}
+
+/*Second screen*/
+
+.mainsection-txt2 {
+    color: #004077;
+    border: 6px solid #004077;
+    width: 80vw;
+    height: 80vh;
+    padding: 6%;
+    font-size: 50px;
+}
+
+.mainsection-img2 {
+    align-self: center;
+    transform: translateX(-27%);
+    padding:20px;
+    width: 340px;
+    height: 300px;
+    background-size: cover;
+}
+
+.mainsection-img3 {
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
