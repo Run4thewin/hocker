@@ -1,0 +1,96 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.spacing {
+    height: 50px;
+}
+
+.modalError {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    background-color: #f57727;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modalError p {
+    color: #fff ;
+    font-size: 20px;
+}
+
+/* The Close Button of the Modal*/
+.close {
+	color: rgb(252, 248, 248);
+	float: right;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+p {
+    font-size: 50px;
+    color: #004077;
+}
+
+.form label {
+    color: #004077;
+    background-color: #fff;
+    padding-left: 5px;
+    margin-left: 12px;
+}
+
+.form input {
+    border: 2px solid #004077;
+    width: 35vw;
+    height: 7vh;
+}
+
+.md-form {
+    margin-bottom: 0.8rem;
+    margin-top: -17px;
+}
+
+#message {
+    border: 2px solid #004077;
+    width: 35vw;
+    height: 17vh;
+}
+
+.btn-contact {
+    width: 34vw;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:#004077;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn-contact:hover {
+    background-color: #f57727;
+}
+
+.contactenos p {
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.contactenos h1 {
+    font-size: 25px;
+    color: #004077;
+    padding: 10px 0 10px 0;
+}
+
+.contactenos h3 {
+    font-size: 22px;
+    color: #004077;
+    padding: 10px 0 10px 0;
+}
+
+.container-contact {
+    background-color: #0040772f;
+    padding: 90px 0 70px 0;
+}
