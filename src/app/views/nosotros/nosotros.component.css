@@ -1,0 +1,131 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.spacing {
+    height: 150px;
+}
+
+hr {
+    height: 25vh;
+    width: 10px;
+    background-color: #004077;
+    outline: none;
+    margin: 30px;
+}
+
+.nosotros-img1 {
+    background: url("src\assets\nosotros-img1.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nosotros-txt {
+    background-color: #fff;
+    margin: 400px 90px 0 100px;
+    border-radius: 25px;
+    padding: 7% 2% 7% 2%;
+    height: 60vh;
+}
+
+.nosotros-logo {
+    width: 25vw;
+}
+
+.nosotros-txt1 h1 {
+    line-height: 80px;
+    color: #004077;
+}
+
+.nosotros-txt1 p {
+    z-index: 5;
+    font-size: small;
+    font-weight: bolder;
+    color: #004077;
+    line-height: 30px;
+}
+
+.emptyBox {
+    width: 28%;
+    height: 50vh;
+    border: 10px solid #004077;
+    outline: none;
+}
+
+.nosotros-txt2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.nosotros-mision-img {
+    z-index: 0;
+    /*background: url(/SitioHocker/assets/mainsection-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    width: 50vw;
+}
+
+.nosotros-mision-txt {
+    z-index: 1;
+    transform: translateX(27%);
+    align-self: center;
+    color: #fff;
+    background-color: #004077;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 40px;
+}
+
+.nosotros-vision-img {
+    z-index: 0;
+    /*background: url(/SitioHocker/assets/mainsection-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    width: 50vw;
+    align-self: center;
+    margin-left: 120px;
+}
+
+.nosotros-vision-txt {
+    z-index: 1;
+    transform: translateX(-27%);
+    color: #fff;
+    background-color: #004077;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 50px 20px 20px 20px;
+    line-height: 40px;
+}
+
+.nosotros-valores-img {
+    z-index: 0;
+    /*background: url(/SitioHocker/assets/mainsection-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    width: 50vw;
+    align-self: center;
+}
+
+.nosotros-valores-txt {
+    z-index: 1;
+    transform: translateX(27%);
+    color: #fff;
+    background-color: #004077;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.nosotros-valores-txt h1 {
+    line-height: 80px;
+}
+
+.nosotros-valores-txt h4 {
+    padding-top: 40px;
+}

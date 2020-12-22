@@ -44,7 +44,7 @@ p {
 
 .form input {
     border: 2px solid #004077;
-    width: 35vw;
+    width: 90%;
     height: 7vh;
 }
 
@@ -55,12 +55,12 @@ p {
 
 #message {
     border: 2px solid #004077;
-    width: 35vw;
+    width: 90%;
     height: 17vh;
 }
 
 .btn-contact {
-    width: 34vw;
+    width: 90%;
     padding: 10px;
     border: none;
     outline: none;
@@ -94,3 +94,11 @@ p {
     background-color: #0040772f;
     padding: 90px 0 70px 0;
 }
+
+/*Medium devices*/ 
+@media (min-width: 513px) and (max-width: 953px) {
+
+.contactenos {
+    margin-left: 40px;
+    margin-right: 40px;
+}}

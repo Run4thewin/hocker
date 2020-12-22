@@ -1,0 +1,39 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding:
+}
+
+li {
+    list-style-type: none;
+    padding-top: 20px;
+    color: #004077;
+}
+
+h1 {
+    color: #004077;
+    padding-top: 50px;
+}
+
+a:hover {
+    color: #004077;
+}
+
+.spacing {
+    height: 100px;
+}
+
+.servicios-img {
+    width: 70%;
+    align-self: center;
+}
+
+.servicios-txt {
+    width: 80%;
+    background-color: #004077;
+    color: #fff;
+    font-size: 15px;
+    padding: 5%;
+    transform: translateY(-60%);
+    align-self: center;
+}
