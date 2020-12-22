@@ -5,7 +5,7 @@
 }
 
 .spacing {
-    height: 150px;
+    height: 200px;
 }
 
 hr {
@@ -17,7 +17,7 @@ hr {
 }
 
 .nosotros-img1 {
-    background: url("src\assets\nosotros-img1.jpeg");
+    background: url("src\assets\nosotros-cover.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100vw;
@@ -25,11 +25,11 @@ hr {
 }
 
 .nosotros-txt {
-    background-color: #fff;
+    background-color:#fff;
     margin: 400px 90px 0 100px;
     border-radius: 25px;
-    padding: 7% 2% 7% 2%;
-    height: 60vh;
+    padding: 7% 2% 2% 2%;
+    height: 200vh;
 }
 
 .nosotros-logo {
@@ -93,13 +93,15 @@ hr {
 
 .nosotros-vision-txt {
     z-index: 1;
-    transform: translateX(-27%);
+    transform: translate(-37%, 70%);
     color: #fff;
     background-color: #004077;
     border-radius: 25px;
     font-size: 20px;
-    padding: 50px 20px 20px 20px;
+    padding: 50px 20px 50px 20px;
     line-height: 40px;
+    text-align: center;
+    margin-bottom: 250px;
 }
 
 .nosotros-valores-img {
@@ -109,21 +111,26 @@ hr {
     background-size: 100%;*/
     width: 50vw;
     align-self: center;
+    margin: 0 150px 0 0;
+    padding-right: 100px;
+    transform: translateY(70%);
 }
 
 .nosotros-valores-txt {
     z-index: 1;
-    transform: translateX(27%);
+    transform: translateX(20%);
     color: #fff;
     background-color: #004077;
     border-radius: 25px;
     font-size: 20px;
-    padding: 30px;
-    line-height: 30px;
+    padding: 50px 20px 50px 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 150px;
 }
 
 .nosotros-valores-txt h1 {
-    line-height: 80px;
+    line-height: 70px;
 }
 
 .nosotros-valores-txt h4 {

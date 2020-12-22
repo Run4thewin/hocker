@@ -8,6 +8,10 @@
     height: 50px;
 }
 
+.largespacing {
+    height: 100px;
+}
+
 .modalError {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;

@@ -1,7 +1,7 @@
 * {
     overflow: hidden;
     margin: 0;
-    padding:
+    padding: 0;
 }
 
 li {
@@ -12,7 +12,6 @@ li {
 
 h1 {
     color: #004077;
-    padding-top: 50px;
 }
 
 a:hover {
@@ -24,16 +23,16 @@ a:hover {
 }
 
 .servicios-img {
-    width: 70%;
-    align-self: center;
+    width: 60%;
+    margin-right: 215px;
+
 }
 
 .servicios-txt {
-    width: 80%;
+    width: 70%;
     background-color: #004077;
     color: #fff;
     font-size: 15px;
     padding: 5%;
-    transform: translateY(-60%);
-    align-self: center;
+    transform: translateY(-20%);
 }
