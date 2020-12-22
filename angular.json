@@ -25,7 +25,10 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/nosotros-cover.jpg",
+              "src/assets/mainsection-img3.png",
+              "src/assets/nosotros-cover.jpg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
