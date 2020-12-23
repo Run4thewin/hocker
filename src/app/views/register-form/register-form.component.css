@@ -99,10 +99,104 @@ p {
     padding: 90px 0 70px 0;
 }
 
-/*Medium devices*/ 
-@media (min-width: 513px) and (max-width: 953px) {
 
-.contactenos {
-    margin-left: 40px;
-    margin-right: 40px;
-}}
+
+/*Extra small devices*/ 
+@media (max-width: 480px) {
+
+    .register-logo {
+        display: none;
+    }
+   
+    .contactenos {
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+
+    .map {
+        margin: 100px auto auto auto;
+    }
+}
+
+/*Small devices*/ 
+@media (min-width: 481px) and (max-width: 600px) {
+
+    .register-logo {
+        display: none;
+    }
+    
+    .contactenos {
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+
+    .map {
+        margin-top: 100px;
+        width: 100vw;
+    }
+    
+
+}
+
+/*Medium devices*/ 
+@media (min-width: 601px) and (max-width: 750px) {
+
+    .register-logo {
+        display: none;
+    }
+
+    .contactenos {
+        margin-left: 70px;
+        margin-right: 40px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+
+    .map {
+        margin: 100px auto auto 150px;
+    }
+
+}
+
+/* Tablets that have this very specific size*/
+@media (min-width: 751px) and (max-width: 900px) {
+
+    .register-logo {
+        display: none;
+    }
+
+    .contactenos {
+        margin-left: 70px;
+        margin-right: 40px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+
+    .map {
+        margin: 100px auto auto 150px;
+    }
+}
+
+/* Large devices*/
+@media (min-width: 901px) {
+    .map {
+        width: 500px;
+        height: 400px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+}
