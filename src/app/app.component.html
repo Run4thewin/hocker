@@ -15,7 +15,7 @@
       <div class="collapse navbar-collapse" id="main-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-3">
-                    <a routerLink="/inicio" class="nav-link">Inicio</a>
+                    <a routerLink="/" class="nav-link">Inicio</a>
                 </li>
 
                 <li class="nav-item ml-3">
@@ -27,7 +27,7 @@
                 </li>
 
                 <li class="nav-item ml-3">
-                    <a routerLink="contact" class="nav-link">Contact</a>
+                    <a routerLink="/contact" class="nav-link">Contact</a>
                 </li>
             </ul>  
       </div>
@@ -35,11 +35,7 @@
   </nav>
 </header>
 <!--Header ends here-->
-
-<app-inicio></app-inicio>
-<app-nosotros></app-nosotros>
-<app-servicios></app-servicios>
-<app-register-form></app-register-form>
+<router-outlet></router-outlet>
  <!--
 <head>
 
