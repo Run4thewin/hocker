@@ -50,6 +50,8 @@ p {
     border: 2px solid #004077;
     width: 90%;
     height: 7vh;
+    z-index: 0;
+    padding: 3%;
 }
 
 .md-form {
@@ -57,10 +59,22 @@ p {
     margin-top: -17px;
 }
 
+.form textarea {
+    padding: 3%;
+    z-index: -1;
+    position: relative;
+}
+
 #message {
     border: 2px solid #004077;
     width: 90%;
     height: 17vh;
+}
+
+.form textarea {
+    border: 2px solid #004077;
+    width: 90%;
+    height: 7vh;
 }
 
 .btn-contact {

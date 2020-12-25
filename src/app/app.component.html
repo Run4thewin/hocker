@@ -1,38 +1,39 @@
-<!--Header-navigation bar is here because it appears on every page-->
-<header>
+<!-- Current header-->
+<header id="header">
   <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container" style="background-color: #fff;">
+          <a href="#" class="navbar-brand">
+            <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
+          </a>
 
-    <div class="container">
-      <a href="#" class="navbar-brand">
-        <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
-      </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ml-3">
+                <a routerLink="/" class="nav-link">Inicio</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                <a routerLink="/servicios" class="nav-link">Servicios</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                  <a routerLink="/nosotros" class="nav-link">Nosotros</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                  <a routerLink="/register" class="nav-link">Contact</a>
+              </li>
+          </ul>  
+        </div>
+      </div>
+  </nav>
+</header> 
 
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ml-3">
-            <a routerLink="/" class="nav-link">Inicio</a>
-          </li>
-
-          <li class="nav-item ml-3">
-            <a routerLink="/servicios" class="nav-link">Servicios</a>
-          </li>
-
-          <li class="nav-item ml-3">
-              <a routerLink="/nosotros" class="nav-link">Nosotros</a>
-          </li>
-
-          <li class="nav-item ml-3">
-              <a routerLink="/register" class="nav-link">Contact</a>
-          </li>
-      </ul>  
-</div>
-</div>
-</nav>
-</header>
 
 
 <!--

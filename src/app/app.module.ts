@@ -10,6 +10,8 @@ import { InicioComponent } from './views/inicio/inicio.component';
 import { ServiciosComponent } from './views/servicios/servicios.component';
 import { NosotrosComponent } from './views/nosotros/nosotros.component';
 
+/*Importig httpclient to structure api request*/
+import { HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -25,6 +27,7 @@ import { NosotrosComponent } from './views/nosotros/nosotros.component';
     BrowserModule,
     AppRoutingModule, 
     ReactiveFormsModule,
+    HttpClientModule,
     
   ],
   providers: [],
