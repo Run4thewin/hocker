@@ -1,5 +1,42 @@
-<!--Header-navigation bar is here because it appears on every page-->
+<!-- Current header-->
+<header id="header">
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container" style="background-color: #fff;">
+          <a href="#" class="navbar-brand">
+            <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
+          </a>
 
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ml-3">
+                <a routerLink="/" class="nav-link">Inicio</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                <a routerLink="/servicios" class="nav-link">Servicios</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                  <a routerLink="/nosotros" class="nav-link">Nosotros</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                  <a routerLink="/register" class="nav-link">Contact</a>
+              </li>
+          </ul>  
+        </div>
+      </div>
+  </nav>
+</header> 
+
+
+
+
+<!--
 <header id="header">
   <nav class="navbar navbar-expand-sm navbar-light">
 
@@ -8,11 +45,11 @@
         <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
       </a>
 
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="main-nav">
+      <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ml-3">
                     <a routerLink="/" class="nav-link">Inicio</a>
@@ -27,14 +64,14 @@
                 </li>
 
                 <li class="nav-item ml-3">
-                    <a routerLink="/contact" class="nav-link">Contact</a>
+                    <a routerLink="/register" class="nav-link">Contact</a>
                 </li>
             </ul>  
       </div>
     </div>
   </nav>
 </header>
-<!--Header ends here-->
+Header ends here-->
 <router-outlet></router-outlet>
  <!--
 <head>

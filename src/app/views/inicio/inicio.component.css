@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 .btn-sabermas1 {
     color: #fff;
     border: 2px solid #fff;
@@ -238,5 +236,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    
 
 }

@@ -1,6 +1,6 @@
 /*Pallete
-Dark blue: #004077
-*/
+Dark blue: #004077 */
+
 
 * {
     overflow: hidden;
@@ -9,9 +9,20 @@ Dark blue: #004077
 #header {
     background-color: #fff;
     position: fixed;
-    left: 0;
-    width: 100%;
-    height: 90px;
+    z-index: 100;
+    width: 100vw;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar {
+    position: relative;
     z-index: 100;
 }
 
@@ -22,6 +33,7 @@ ul li a {
 
 ul li a:hover {
     color: rgba(0, 0, 0, 0.377);
-    /*color: #f57727;*/
-    
+    /*color: #f57727; */
 }
+    
+

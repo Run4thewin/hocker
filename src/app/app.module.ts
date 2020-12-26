@@ -9,7 +9,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { InicioComponent } from './views/inicio/inicio.component';
 import { ServiciosComponent } from './views/servicios/servicios.component';
 import { NosotrosComponent } from './views/nosotros/nosotros.component';
-import { ContactenosComponent } from './views/contactenos/contactenos.component';
+
+/*Importig httpclient to structure api request*/
+import { HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -18,12 +21,14 @@ import { ContactenosComponent } from './views/contactenos/contactenos.component'
     InicioComponent,
     ServiciosComponent,
     NosotrosComponent,
-    ContactenosComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
