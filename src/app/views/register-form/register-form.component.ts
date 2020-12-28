@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
 import { Form } from '../form';
+import { HttpService } from '../../services/http/http.service';
 
 @Component({
   selector: 'app-register-form',
@@ -17,7 +18,7 @@ export class RegisterFormComponent implements OnInit {
 
   contactForm! : FormGroup;
 
-  constructor(private formBuilder : FormBuilder, private http : HttpClient) { }
+  constructor(private formBuilder : FormBuilder, private http : HttpService) { }
 
   ngOnInit(): void {
   this.createForm(new Form());
@@ -34,15 +35,17 @@ export class RegisterFormComponent implements OnInit {
 
   onSubmit() {
 
+    this.http.addForm(this.contactForm.value);
+
     //console.log(this.contactForm.value);
     //var data = { nombre : form.nombre};
   
-    this.http.post(`$`, this.contactForm)
+    /*this.http.post(`$`, this.contactForm)
     .subscribe (
       resultado => {
         console.log(resultado)
       }
-    );
+    );*/
     
     this.contactForm.reset(new Form());
   }
