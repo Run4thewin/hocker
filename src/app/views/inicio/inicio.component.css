@@ -222,7 +222,7 @@
     .mainsection-txt2 {
         color: #004077;
         border: 6px solid #004077;
-        width: 80vw;
+        width: 50vw;
         height: 70vh;
         padding: 6%;
         font-size: 40px;
@@ -230,10 +230,9 @@
 
     .mainsection-img2 {
         align-self: center;
-        transform: translateX(-27%);
+        transform: translateX(-14%);
         padding:20px;
-        width: 240px;
-        height: 300px;
+        width: 40%;
         background-size: cover;
     }
 

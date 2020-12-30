@@ -17,6 +17,7 @@ export class RegisterFormComponent implements OnInit {
   If we put it inside the constructor, it generates the error error TS2341. */
 
   contactForm! : FormGroup;
+  telefono: any;
 
   constructor(private formBuilder : FormBuilder, private http : HttpService) { }
 
@@ -28,13 +29,13 @@ export class RegisterFormComponent implements OnInit {
     this.contactForm = this.formBuilder.group ({
       nombre: [form.nombre, [Validators.required]],
       email: [form.email, [Validators.email]],
-      //telefono: [form.telefono, [Validators.required]],
+      telefono: [form.telefono, [Validators.required]],
       mensaje: [form.mensaje]
     }) 
   };
 
   onSubmit() {
-
+    
     this.http.addForm(this.contactForm.value);
 
     //console.log(this.contactForm.value);
