@@ -169,3 +169,11 @@
         height: 400px;
     }
 }
+
+/*Extra small devices*/ 
+@media (max-width: 480px) {
+
+    .vamosHablar {
+        font-size: 40px;
+    }
+}
