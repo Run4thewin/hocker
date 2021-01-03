@@ -235,6 +235,11 @@
         width: 40%;
         background-size: cover;
     }
+    
+    .mainsection-img2-photo {
+        width: 500px;
+        height: 400px;
+    }
 
     .mainsection-img3 {
         width: 100%;
