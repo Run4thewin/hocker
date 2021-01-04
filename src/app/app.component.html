@@ -33,85 +33,13 @@
   </nav>
 </header> 
 
-
-
-
-<!--
-<header id="header">
-  <nav class="navbar navbar-expand-sm navbar-light">
-
-    <div class="container">
-      <a href="#" class="navbar-brand">
-        <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
-      </a>
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="nav-principal">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-3">
-                    <a routerLink="/" class="nav-link">Inicio</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="/servicios" class="nav-link">Servicios</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="/nosotros" class="nav-link">Nosotros</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="/register" class="nav-link">Contact</a>
-                </li>
-            </ul>  
-      </div>
-    </div>
-  </nav>
-</header>
-Header ends here-->
-<router-outlet>Carregando</router-outlet>
- <!--
-<head>
-
-</head>
-
-<header>
-  <nav>
-      <a href="index.html"><img id="logo" src="./assets/yellow-blue.png" alt="Sua Ajuda | Seu app de serviços!"></a>
-
-      <span class="hamburguer" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-    <!--<a routerLink="/main">Main Section</a>
-      <br/>
-      <br/>
-      <br/>
-      <a routerLink="/middle">Middle Section</a>
-  </nav>
-</header>
-
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Cadastrar</a>
-  <a href="#">Entrar</a>"
-</div>
-     
-<app-section-main></app-section-main>
-<app-section-two></app-section-two>
-<app-section-three></app-section-three>
-<app-section-four></app-section-four>
-<app-section-footer></app-section-footer>
-
-<script>
-  alert("OI");
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
+<div id="cookiesAlert">
+  <span id="closeCookies" class="close" onclick="closeAlert()">&times;</span>
   
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-</script>-->
+    <p>Este sitio web, al igual que la mayoría de los sitios en Internet, usa Cookies para mejorar y
+      optimizar la experiencia del usuario. <br> <a class="cookiesAlert" href="">Más información</a></p>
+  
+  <button id="okCookies" onclick="closeAlert()">Aceptar</button>
+</div>
+
+<router-outlet>Carregando</router-outlet>
