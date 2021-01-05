@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.spacing {
+    height: 100px;
+}
+
 .contactSection {
     width: 100%;
     height: 90%;
