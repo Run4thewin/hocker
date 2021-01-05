@@ -4,23 +4,24 @@
     padding: 0;
 }
 
-h1 {
-    color: #004077;
+.spacing {
+    height: 100px;
 }
 
-h3 {
+.serviciosh1 {
+    color: #004077;
+    padding-left: 40px;
+}
+
+.serviciosh3 {
     color: #004077;
     padding-bottom: 20px;
 }
 
 /*Attention! All spans are formatted*/
-span {
+.service span {
     font-weight: bold;
     margin-top: 15px;
-}
-
-.servicesSection {
-    margin-top: 100px;
 }
 
 .service {
@@ -38,11 +39,9 @@ serviceImage {
 
 .servicios-txt {
     width: 70%;
-    height: 100%;
     background-color: #004077;
     color: #fff;
     font-size: 20px;
-    transform: translateY(-15%);
     padding: 35px 25px 0 25px;
     margin: auto;
     display: table;
@@ -91,18 +90,8 @@ serviceImage {
         color: #004077;
     }
 
-    h1 {
-        padding-left: 40px;
-    }
-
-    .servicios-img {
-        width: 60%;
-        margin: auto;
-        padding-top: 50px;
-    }
-    
     .servicios-txt {
-        transform: translateY(-10%);
+        transform: translateY(-3%);
     }
 
 }
@@ -114,19 +103,11 @@ serviceImage {
         padding: 20px 0 20px 40px;
         color: #004077;
     }
-
-    h1 {
-        padding-left: 40px;
-    }
-
-    .servicios-img {
-        width: 60%;
-        margin: auto;
-        padding-top: 50px;
-    }
     
     .servicios-txt {
-        transform: translateY(-10%);
+        transform: translateY(-3%);
+        height: 314px;
+        padding: 30px;
     }
 
 }
@@ -140,10 +121,6 @@ serviceImage {
         color: #004077;
     }
 
-    h1 {
-        padding-left: 40px;
-    }
-
     .servicios-img {
         width: 60%;
         margin: auto;
@@ -152,6 +129,7 @@ serviceImage {
     
     .servicios-txt {
         transform: translateY(-10%);
+        padding: 30px;
     }
 
 }
@@ -164,7 +142,7 @@ serviceImage {
         color: #004077;
     }
 
-    h1 {
+    .serviciosh1 {
         padding-left: 50px;
     }
 
@@ -176,6 +154,7 @@ serviceImage {
     
     .servicios-txt {
         transform: translateY(-10%);
+        padding: 30px;
     }
 
 }
@@ -184,7 +163,12 @@ serviceImage {
 @media (min-width: 901px) {
     /*Default configs*/
     .servicios-txt {
-        height: 100%;
+        transform: translateY(-2%);
+        padding: 30px;
+    }
+
+    .serviciosh1 {
+        padding-left: 0;
     }
 
 }

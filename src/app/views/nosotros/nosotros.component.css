@@ -9,7 +9,7 @@ hr {
     width: 10px;
     background-color: #004077;
     outline: none;
-    margin: 30px;
+    margin: 50px auto;
 }
 
 .nosotros-mision-img {
@@ -25,19 +25,22 @@ hr {
 }
 
 .nosotros-img1 {
+    width: 100vw;
+    height: 100%;
+
     display: grid;
-    place-content: center;
     background: url("src\assets\nosotros-cover.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100%;
+
+    place-content: center;
     margin-top: 100px;
 }
 
 .emptyBox {
     width: 28%;
     height: 50vh;
+
     border: 10px solid #004077;
     outline: none;
 }
@@ -56,19 +59,21 @@ hr {
 }
 
 .nosotros-mision-txt {
-    z-index: 1;
-    align-self: center;
+    
     color: #fff;
     background-color: #004077;
     border-radius: 25px;
     font-size: 20px;
     padding: 30px;
     line-height: 40px;
+
+    z-index: 1;
     text-align: center;
+    align-self: center;
 }
 
 .nosotros-vision-txt {
-    z-index: 1;
+    
     color: #fff;
     background-color: #004077;
     align-self: center;
@@ -76,31 +81,35 @@ hr {
     font-size: 20px;
     padding: 50px 20px;
     line-height: 40px;
+
+    z-index: 1;
     text-align: center;    
 }
 
 .nosotros-valores-txt {
-    z-index: 1;
     color: #fff;
     background-color: #004077;
     border-radius: 25px;
     font-size: 20px;
-    padding: 50px 20px 50px 20px;
+    padding: 30px 20px;
     line-height: 40px;
-    text-align: center;
     margin-bottom: 150px;
+
+    z-index: 1;
+    text-align: center;
 }
 
 .smdevice-img {
     display: none;
 }
 
-.nosotros-txt {
-    margin: 50px;
+.nosotros-txt {    
+    height: 450px;
+
+    margin: 50px 50px 0 50px;
     background-color:#fff;
-    border-radius: 25px;
-    height: 100%;
-    padding: 20px;
+    border-radius: 25px 25px 0 0;
+    padding: 15px;
 }
 
 /*Extra small devices*/ 
@@ -120,10 +129,12 @@ hr {
     }
     
     .nosotros-txt1 p {
-        z-index: 5;
+        
         font-size: 15px;
         color: #004077;
         line-height: 40px;
+
+        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -134,29 +145,16 @@ hr {
     .emptyBox {
         width: 10%;
         height: 70vh;
+
         border: 5px solid #004077;
     }
 
-    .nosotros-vision-img {
-       display: none;
-    }
+    .mision-vision-valores {
+        width: 90vw;
 
-    .nosotros-mision-txt {
-        margin: auto;
-        border-radius: 0;
-        margin-bottom: 50px;
-    }
-    
-    .nosotros-vision-txt {
-        margin: auto;
-        border-radius: 0;
-        margin-bottom: 50px;
-        padding: 30px 20px;
-    }
+        border-radius: 8px;
 
-    .nosotros-valores-txt {
-        margin: auto;
-        border-radius: 0;
+        margin: 20px;
     }
 
     .nosotros-valores-img {
@@ -187,10 +185,11 @@ hr {
     }
     
     .nosotros-txt1 p {
-        z-index: 5;
         font-size: 20px;
         color: #004077;
         line-height: 50px;
+
+        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -201,6 +200,7 @@ hr {
     .emptyBox {
         width: 10%;
         height: 80vh;
+
         border: 5px solid #004077;
     }
 
@@ -209,22 +209,13 @@ hr {
 
     }
 
-    .nosotros-mision-txt {
-        margin: auto;
-        border-radius: 0;
-        margin-bottom: 50px;
-    }
-    
-    .nosotros-vision-txt {
-        margin: auto;
-        border-radius: 0;
-        margin-bottom: 50px;
-        padding: 30px 20px;
-    }
+    .mision-vision-valores {
+        width: 80vw;
 
-    .nosotros-valores-txt {
+        border-radius: 8px;
+
         margin: auto;
-        border-radius: 0;
+        margin-bottom: 50px;
     }
 
 
@@ -235,7 +226,7 @@ hr {
 }
 
 /*Medium devices*/ 
-@media (min-width: 601px) and (max-width: 761px) {
+@media (min-width: 601px) and (max-width: 769px) {
 
     .nosotros-txt {
         padding: 0 20px;
@@ -251,10 +242,11 @@ hr {
     }
     
     .nosotros-txt1 p {
-        z-index: 5;
         font-size: 20px;
         color: #004077;
         line-height: 50px;
+
+        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -265,30 +257,27 @@ hr {
     .emptyBox {
         width: 40%;
         height: 70vh;
+
         border: 6px solid #004077;
     }
 
-    .nosotros-mision-txt {
+    .mision-vision-valores {
+        width: 80vw;
+
+        border-radius: 8px;
+
         margin: auto;
-        border-radius: 0;
         margin-bottom: 50px;
-    }
-    
-    .nosotros-vision-txt {
-        margin: auto;
-        border-radius: 0;
-        margin-bottom: 50px;
-        padding: 30px 20px;
     }
 
-    .nosotros-valores-txt {
-        margin: auto;
-        border-radius: 0;
+    hr {
+        display: none;
     }
+
 }
 
 /* Tablets that have this very specific size*/
-@media (min-width: 761px) and (max-width: 900px) {
+@media (min-width: 770px) and (max-width: 900px) {
 
     .nosotros-txt {
         padding: 0 20px;
@@ -296,6 +285,7 @@ hr {
     
     .nosotros-logo {
         width: 80%;
+
         margin-top: 150px;
     }
     
@@ -305,10 +295,11 @@ hr {
     }
     
     .nosotros-txt1 p {
-        z-index: 5;
         font-size: 18px;
         color: #004077;
         line-height: 40px;
+
+        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -319,43 +310,21 @@ hr {
     .emptyBox {
         width: 10%;
         height: 60vh;
+
         border: 5px solid #004077;
     }
 
-    .nosotros-mision-txt {
-        transform: translateX(27%);
+    .mision-vision-valores {
+        width: 80vw;
+
+        border-radius: 8px;
+
+        margin: auto;
+        margin-bottom: 50px;
     }
 
-    .nosotros-mision-img {
-        display: block;
-        z-index: 0;
-        width: 50vw;
-    }
-    
-    .nosotros-vision-txt {
-        transform: translateX(-17%);
-    }
-    
-    .nosotros-vision-img {
-        display: block;
-        z-index: 0;
-        width: 50vw;
-        align-self: center;
-        margin-left: 120px;
-    }
-
-    .nosotros-valores-txt {
-        transform: translateX(20%);
-    }
-
-    .nosotros-valores-img {
-        display: block;
-        z-index: 0;
-        width: 50vw;
-        align-self: center;
-        margin: 0 150px 0 0;
-        padding-right: 100px;
-        transform: translateY(70%);
+    hr {
+        display: none;
     }
 
 }
@@ -365,6 +334,7 @@ hr {
     
     .nosotros-logo {
         width: 20vw;
+
         margin-top: 100px;
     }
 
@@ -378,11 +348,12 @@ hr {
     }
     
     .nosotros-txt1 p {
-        z-index: 5;
         font-size: 15px;
         font-weight: bolder;
         color: #004077;
         line-height: 30px;
+
+        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -396,23 +367,25 @@ hr {
     }
 
     .nosotros-mision-txt {
-        transform: translateX(27%);
+        transform: translateX(20%);
     }
 
     .nosotros-mision-img {
+        width: 500px;
+
         display: block;
         z-index: 0;
-        width: 50vw;
     }
     
     .nosotros-vision-txt {
-        transform: translate(-37%, 10%);
+        transform: translate(-27%, 10%);
     }
     
     .nosotros-vision-img {
+        width: 400px;
+
         display: block;
         z-index: 0;
-        width: 50vw;
         align-self: center;
         margin-left: 120px;
     }
@@ -422,12 +395,15 @@ hr {
     }
 
     .nosotros-valores-img {
-        display: block;
-        z-index: 0;
-        width: 50vw;
-        align-self: center;
-        margin: 0 150px 0 0;
+        width: 600px;
+
         padding-right: 100px;
         transform: translateY(70%);
+
+        display: block;
+        z-index: 0;
+        align-self: center;
+        margin: 0 150px 0 0;
+        
     }
 }
