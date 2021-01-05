@@ -22,7 +22,7 @@ export class RegisterFormComponent implements OnInit {
   constructor(private formBuilder : FormBuilder, private http : HttpService) { }
 
   ngOnInit(): void {
-  this.createForm(new Form());
+    this.createForm(new Form());
   }
   
   createForm(form: Form) {
