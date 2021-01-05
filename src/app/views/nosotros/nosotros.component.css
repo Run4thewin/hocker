@@ -4,12 +4,22 @@
     padding: 0;
 }
 
+.spacing {
+    height: 100px;
+}
+
 hr {
     height: 25vh;
     width: 10px;
     background-color: #004077;
     outline: none;
     margin: 50px auto;
+}
+
+.nosotros-txt1 p {
+    color: #004077;
+
+    z-index: 5;
 }
 
 .nosotros-mision-img {
@@ -26,15 +36,11 @@ hr {
 
 .nosotros-img1 {
     width: 100vw;
-    height: 100%;
+    height: 90vh;
 
-    display: grid;
     background: url("src\assets\nosotros-cover.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-
-    place-content: center;
-    margin-top: 100px;
 }
 
 .emptyBox {
@@ -106,17 +112,22 @@ hr {
 .nosotros-txt {    
     height: 450px;
 
-    margin: 50px 50px 0 50px;
     background-color:#fff;
     border-radius: 25px 25px 0 0;
     padding: 15px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -450px;
 }
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
 
     .nosotros-txt {
-        padding: 0 20px;
+        max-width: 300px;
+        margin-left: -150px;
     }
     
     .nosotros-logo {
@@ -172,7 +183,8 @@ hr {
 @media (min-width: 481px) and (max-width: 600px) {
 
     .nosotros-txt {
-        padding: 0 20px;
+        max-width: 500px;
+        margin-left: -250px;
     }
     
     .nosotros-logo {
@@ -185,11 +197,9 @@ hr {
     }
     
     .nosotros-txt1 p {
+        max-width: 500px;
         font-size: 20px;
-        color: #004077;
         line-height: 50px;
-
-        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -229,7 +239,8 @@ hr {
 @media (min-width: 601px) and (max-width: 769px) {
 
     .nosotros-txt {
-        padding: 0 20px;
+        max-width: 500px;
+        margin-left: -250px;
     }
     
     .nosotros-logo {
@@ -238,15 +249,12 @@ hr {
     
     .nosotros-txt1 h1 {
         color: #004077;
-        line-height: 100px;
+        line-height: 90px;
     }
     
     .nosotros-txt1 p {
         font-size: 20px;
-        color: #004077;
         line-height: 50px;
-
-        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -280,9 +288,10 @@ hr {
 @media (min-width: 770px) and (max-width: 900px) {
 
     .nosotros-txt {
-        padding: 0 20px;
+        max-width: 700px;
+        margin-left: -350px;
     }
-    
+
     .nosotros-logo {
         width: 80%;
 
@@ -296,10 +305,7 @@ hr {
     
     .nosotros-txt1 p {
         font-size: 18px;
-        color: #004077;
         line-height: 40px;
-
-        z-index: 5;
     }
 
     .nosotros-txt2 {
@@ -338,6 +344,12 @@ hr {
         margin-top: 100px;
     }
 
+    .nosotros-txt {
+        max-width: 800px;   
+        max-height: 400px;
+        margin-left: -400px;
+    }
+
     .nosotros-txt1 {
         margin-top: 100px;
     }
@@ -350,10 +362,7 @@ hr {
     .nosotros-txt1 p {
         font-size: 15px;
         font-weight: bolder;
-        color: #004077;
         line-height: 30px;
-
-        z-index: 5;
     }
 
     .nosotros-txt2 {
