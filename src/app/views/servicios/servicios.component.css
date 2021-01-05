@@ -4,37 +4,48 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 h1 {
     color: #004077;
 }
 
-a:hover {
+h3 {
     color: #004077;
-    text-decoration: underline;
+    padding-bottom: 20px;
 }
 
-.spacing {
-    height: 100px;
+/*Attention! All spans are formatted*/
+span {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.servicesSection {
+    margin-top: 100px;
+}
+
+.service {
+    padding: 30px;
+}
+
+serviceImage {
+    padding-right: 30px;
 }
 
 .servicios-img {
     width: 60%;
     margin:auto;
-
 }
 
 .servicios-txt {
     width: 70%;
+    height: 100%;
     background-color: #004077;
     color: #fff;
     font-size: 20px;
-    padding: 5%;
-    transform: translateY(-20%);
+    transform: translateY(-15%);
+    padding: 35px 25px 0 25px;
     margin: auto;
+    display: table;
 }
 
 .services-outerList {
@@ -60,6 +71,17 @@ a:hover {
     padding: 10px 0 10px 0;
 }
 
+.servicios-p {
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+}
+
+.servicios-p:hover {
+    color: #004077;
+    text-decoration: underline;
+}
+
+
 /*Extra small devices*/ 
 @media (max-width: 480px) {
 
@@ -80,11 +102,6 @@ a:hover {
     }
     
     .servicios-txt {
-        width: 70%;
-        background-color: #004077;
-        color: #fff;
-        font-size: 20px;
-        margin: auto;
         transform: translateY(-10%);
     }
 
@@ -109,11 +126,6 @@ a:hover {
     }
     
     .servicios-txt {
-        width: 70%;
-        background-color: #004077;
-        color: #fff;
-        font-size: 20px;
-        margin: auto;
         transform: translateY(-10%);
     }
 
@@ -139,11 +151,6 @@ a:hover {
     }
     
     .servicios-txt {
-        width: 70%;
-        background-color: #004077;
-        color: #fff;
-        font-size: 20px;
-        margin: auto;
         transform: translateY(-10%);
     }
 
@@ -168,11 +175,6 @@ a:hover {
     }
     
     .servicios-txt {
-        width: 70%;
-        background-color: #004077;
-        color: #fff;
-        font-size: 20px;
-        margin: auto;
         transform: translateY(-10%);
     }
 
@@ -181,5 +183,8 @@ a:hover {
 /* Large devices*/
 @media (min-width: 901px) {
     /*Default configs*/
+    .servicios-txt {
+        height: 100%;
+    }
 
 }

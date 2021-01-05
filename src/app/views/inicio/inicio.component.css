@@ -99,7 +99,7 @@
         transform: translateY(120%);
         background-color: #004077;
         color: #fff;
-        margin: -130px 80px 10px 30px;
+        margin: -130px 100px 10px 30px;
         padding: 5%;
         border-radius: 25px;
         font-size: 30px;
@@ -136,8 +136,7 @@
         z-index: 1;
         transform: translateY(120%);
         align-self: center;
-        color: #fff;
-        background-color: #004077;
+        color: #004077;
         margin: -160px 200px 10px 50px;
         padding: 5%;
         border-radius: 25px;
@@ -172,7 +171,7 @@
     .mainsection-txt {
         z-index: 1;
         transform: translate(5%, 120%);
-        margin-top: -150px;
+        margin: -150px 50px;
         color: #004077;
         padding: 2.5%;
         border-radius: 25px;

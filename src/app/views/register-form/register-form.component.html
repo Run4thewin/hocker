@@ -11,29 +11,29 @@
 </div> 
 
 
-<div class="formGrid">
+<form class="formGrid" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
 
-<div class="nombre">
-    <label class="label">Su nombre</label>
-    <input type="text" formControlName="nombre" class="form-control push-up">
-</div>
+    <div class="nombre">
+        <label class="label">Su nombre</label>
+        <input type="text" formControlName="nombre" class="form-control push-up">
+    </div>
 
-<div class="telefono">
-    <label class="label">Teléfono</label>
-    <input type="text" formControlName="telefono" class="form-control push-up">
-</div>
+    <div class="telefono">
+        <label class="label">Teléfono</label>
+        <input type="text" formControlName="telefono" class="form-control push-up">
+    </div>
 
-<div class="mensaje-class">
-    <textarea formControlName="mensaje" name="message" class="form-control push-up mensaje" placeholder="Mensaje"></textarea>
-</div>
+    <div class="mensaje-class">
+        <textarea formControlName="mensaje" name="message" class="form-control push-up mensaje" placeholder="Mensaje"></textarea>
+    </div>
 
-<div class="email">
-    <label class="label">E-mail</label>
-    <input type="text" formControlName="email" class="form-control push-up">
-    <button class="btn-contact" type="submit">Enviar</button>
-</div>
+    <div class="email">
+        <label class="label">E-mail</label>
+        <input type="text" formControlName="email" class="form-control push-up">
+        <button class="btn-contact" type="submit">Enviar</button>
+    </div>
 
-</div>
+</form>
 
 
 <div class="container-fluid container-contact">
