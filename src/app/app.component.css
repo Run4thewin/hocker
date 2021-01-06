@@ -39,9 +39,7 @@ Orange: #F57727;*/
 }
   
 #cookiesAlert button:hover {
-    background-color:  #fff;
-    color: #004077;
-    border: 2px solid #004077;
+    background-color: #106cbd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     cursor: pointer;

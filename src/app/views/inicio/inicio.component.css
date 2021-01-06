@@ -64,7 +64,7 @@
 
 .mainsection-txt2 a {
     text-decoration: none;
-    color:#004077;
+    color: #fff;
 }
 
 .mainsection-img2 {
@@ -77,6 +77,21 @@
     background-size: cover;
 }
 
+.btn-blue {
+    border: none;
+    outline: none;
+    background-color: #0478dd;
+    padding: 7px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #106cbd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
 .btn-sabermas1 {
     border: 2px solid #fff;
     padding: 7px;
@@ -101,6 +116,7 @@
     border: none;
     padding: 10px;
 }
+*/
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
