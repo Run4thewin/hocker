@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+.main-button {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #0478dd;
+    padding: 7px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.main-button:hover {
+    background-color: #106cbd;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

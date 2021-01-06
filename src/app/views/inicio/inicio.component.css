@@ -77,46 +77,9 @@
     background-size: cover;
 }
 
-.btn-blue {
-    border: none;
-    outline: none;
-    background-color: #0478dd;
-    padding: 7px;
-    border-radius: 8px;
-    color: #fff;
-}
-
-.btn-blue:hover {
-    background-color: #106cbd;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/*
-.btn-sabermas1 {
-    border: 2px solid #fff;
-    padding: 7px;
-
-    margin: 30px 0 30px 0;
-}
-
-.btn-sabermas1:hover {
-    background-color: #025ba8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: none;
-    padding: 10px;
-}
-
-.btn-sabermas2 {
-    border: 2px solid #004077;
+.main-button {
     padding: 7px;
 }
-
-.btn-sabermas2:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: none;
-    padding: 10px;
-}
-*/
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
