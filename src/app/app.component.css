@@ -28,23 +28,9 @@ Orange: #F57727;*/
 }
 
 #cookiesAlert button {
-    padding: 8px;
     float: right;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    background-color: #106cbd;
-    border-radius: 8px;
-    border: none;
 }
   
-#cookiesAlert button:hover {
-    background-color: #004077;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px;
-    cursor: pointer;
-}
-
 #header {
     background-color:  rgba(255, 255, 255, 0.9);
     position: fixed;
