@@ -64,7 +64,7 @@
     padding: 10px;
 }
 
-.btn-contact {
+.btn-blue {
     width: 100%;
     padding: 10px;
     border: none;
@@ -74,14 +74,15 @@
     border-radius: 8px;
 }
 
+.btn-blue:hover {
+    background-color: #106cbd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .label {
     background-color: #fff;
     color: #004077;
     margin-left: 20px;
-}
-
-.btn-contact:hover {
-    background-color: #f57727;
 }
 
 .contactenos p {

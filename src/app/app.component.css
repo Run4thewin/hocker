@@ -33,15 +33,13 @@ Orange: #F57727;*/
     color: #fff;
     font-size: 14px;
     font-weight: 500;
-    background-color: #004077;
+    background-color: #106cbd;
     border-radius: 8px;
     border: none;
 }
   
 #cookiesAlert button:hover {
-    background-color:  #fff;
-    color: #004077;
-    border: 2px solid #004077;
+    background-color: #004077;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     cursor: pointer;
