@@ -73,3 +73,13 @@ function displayServicios(service) {
         document.getElementById("ventaImg").style.display = "block"; 
     }
 }
+
+
+$(document).on('click', function(event) {
+    if ((!$(event.target).closest('#header').length)) {
+        
+        document.getElementById("toggler").click( );
+    }
+});
+
+
