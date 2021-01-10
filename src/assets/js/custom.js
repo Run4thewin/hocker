@@ -74,11 +74,10 @@ function displayServicios(service) {
     }
 }
 
-
+//Closing dropdown menu on click out
 $(document).on('click', function(event) {
-    if ((!$(event.target).closest('#header').length)) {
-        
-        document.getElementById("toggler").click( );
+    if ((!$(event.target).closest('#header').length) && ($("#nav").hasClass("show"))) {
+        document.getElementById("menuToggler").click( );
     }
 });
 
