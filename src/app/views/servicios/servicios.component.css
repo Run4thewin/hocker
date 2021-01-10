@@ -44,10 +44,11 @@ serviceImage {
 
 .servicios-txt {
     width: 70%;
+
     background-color: #004077;
     color: #fff;
     font-size: 20px;
-    padding: 35px 25px 0 25px;
+    padding: 35px 25px;
     margin: auto;
     display: table;
 }
