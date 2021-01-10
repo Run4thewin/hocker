@@ -39,7 +39,9 @@ Orange: #F57727;*/
 }
 
 .navbar-toggler {
-    margin-right: 40px;
+    margin-right: 10px;
+    border: none;
+    color: #004077;
 }
 
 .navbar-brand {
