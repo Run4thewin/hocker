@@ -10,8 +10,8 @@ export class HttpService {
   constructor(private http : HttpClient) { }
 
   options!: {
-    headers?: HttpHeaders | { [header: string]: string | string[]; };
-  };
+    headers?: HttpHeaders | { [header: string]: string | string[] };
+  }
 
   apiURL = "";
 
