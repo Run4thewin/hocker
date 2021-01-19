@@ -60,11 +60,17 @@ function displayServicios(service) {
         document.getElementById("displaySeguridad").style.display = "block"; 
         document.getElementById("seguridadImg").style.display = "block"; 
 
-    } else if (service == 'soluciones') 
+    } else if (service == 'conserjeria') 
     
     { 
-        document.getElementById("displaySoluciones").style.display = "block"; 
-        document.getElementById("solucionesImg").style.display = "block"; 
+        document.getElementById("displayConserjeria").style.display = "block"; 
+        document.getElementById("conserjeriaImg").style.display = "block"; 
+
+    } else if (service == 'personal') 
+    
+    { 
+        document.getElementById("displayPersonal").style.display = "block"; 
+        document.getElementById("personalImg").style.display = "block"; 
 
     } else if (service == 'venta') 
     

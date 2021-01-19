@@ -1,6 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Form } from '../form';
 import { HttpService } from '../../services/http/http.service';
 
@@ -38,12 +37,11 @@ export class RegisterFormComponent implements OnInit {
 
   onSubmit() {
     
-    this.http.addForm(this.contactForm.value);
-    
+    this.http.sendForm(this.contactForm.value);
+
     this.sentMessage = true;
 
     this.contactForm.reset(new Form());
-
 
   }
 }

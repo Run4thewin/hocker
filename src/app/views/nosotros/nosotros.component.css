@@ -38,7 +38,7 @@ hr {
     width: 100vw;
     height: 90vh;
 
-    background: url("src\assets\nosotros-cover.jpg");
+    background: url("src\assets\nosotros-cover2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@ hr {
     width: 28%;
     height: 50vh;
 
-    border: 10px solid #004077;
+    border: .3em  solid #004077;
     outline: none;
 }
 
@@ -122,6 +122,53 @@ hr {
     margin-left: -450px;
 }
 
+.history {
+    margin-bottom: 100px;
+}
+
+.p1 {
+    padding: 20px;
+    font-size: 16px;
+    color: #004077;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.p1:after,
+.p1:before {
+    border: .3em solid #004077; 
+    bottom: 0;    
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 7%;
+}
+
+.p1:after {
+    border-left: none;
+    right: 0;
+}
+.p1:before {
+    border-right: none;
+    left: 0;
+}
+
+.h1 {
+    font-size: 30px;
+    color: #004077;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hocker {
+    font-weight: bold; 
+    color: #004077;
+}
+
+.nosotros-txt2 {
+    color: #004077;
+}
+
 /*Extra small devices*/ 
 @media (max-width: 480px) {
 
@@ -175,6 +222,10 @@ hr {
     
     hr {
         display: none;
+    }
+
+    .p1 {
+        font-size: 20px;
     }
 
 }
@@ -232,6 +283,10 @@ hr {
     hr {
         display: none;
     }
+
+    .p1 {
+        font-size: 30px;
+    }
     
 }
 
@@ -282,6 +337,13 @@ hr {
         display: none;
     }
 
+    .p1 {
+        font-size: 30px;
+    }
+
+    .h1 {
+        font-size: 35px;
+    }
 }
 
 /* Tablets that have this very specific size*/
@@ -331,6 +393,14 @@ hr {
 
     hr {
         display: none;
+    }
+
+    .p1 {
+        font-size: 30px;
+    }
+
+    .h1 {
+        font-size: 35px;
     }
 
 }

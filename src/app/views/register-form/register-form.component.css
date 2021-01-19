@@ -29,7 +29,7 @@
 }
 
 .vamosHablar {
-    font-size: 50px;
+    font-size: 40px;
     color: #004077;
 }
 
@@ -154,6 +154,18 @@
     font-size: 15px;
 }
 
+.social-icon {
+    width: 40px;
+    height: auto;
+
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+    margin: 10px 0 20px 0;
+}
+
+
 /*Tablets and small devices**/
 @media (max-width: 760px) {
 
@@ -193,6 +205,6 @@
 @media (max-width: 480px) {
 
     .vamosHablar {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
