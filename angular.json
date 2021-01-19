@@ -31,7 +31,8 @@
               "src/assets/mainsection-img3.png",
               "src/assets/nosotros-cover.jpg",
               "src/assets/vision.png",
-              "src/assets/building.jpg"
+              "src/assets/building.jpg",
+              "src/assets/check.png"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",

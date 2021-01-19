@@ -27,10 +27,15 @@
     background-color: #004077;
     padding: 7%;
     border-radius: 25px;
-    font-size: 45px;
+    font-size: 30px;
+    line-height: 1.3;
 
     z-index: 1;
     align-self: center;
+}
+
+.mainsection-txt > p {
+    margin-bottom: 30px;
 }
 
 .mainsection-img {
@@ -89,6 +94,10 @@
     padding: 7px;
 }
 
+.small-p {
+    font-size: 35px;
+}
+
 /*Extra small devices*/ 
 @media (max-width: 480px) {
 
@@ -101,7 +110,7 @@
     }
 
     .mainsection-txt { 
-        width: 220px;
+       width: 270px;
        font-size: 30px;
 
        margin-top: -270px; 
@@ -263,8 +272,8 @@
     
     .mainsection-img2-photo {
         display: block;
-        width: 500px;
-        height: 400px;
+        width: 100%;
+        height: auto;
     }
 
     .mainsection-img3 {

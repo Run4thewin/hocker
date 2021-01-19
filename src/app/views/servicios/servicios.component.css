@@ -33,21 +33,21 @@
     padding: 30px;
 }
 
-serviceImage {
+.serviceImage {
     padding-right: 30px;
 }
 
 .servicios-img {
-    width: 60%;
+    width: 70%;
     margin:auto;
 }
 
 .servicios-txt {
-    width: 70%;
+    width: 90%;
 
     background-color: #004077;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     padding: 35px 25px;
     margin: auto;
     display: table;
@@ -86,6 +86,70 @@ serviceImage {
     text-decoration: underline;
 }
 
+.admin-ul {
+    list-style-type: disc;
+}
+
+.admin-ul > li {
+    margin: 20px 0 10px 0;
+}
+
+.admin-grid {
+    width: auto;
+    display: grid;
+    grid-template-areas: "item1 item2"
+                         "item3 item4";
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item4 > ul > li {
+    display: inline;
+}
+
+.item {
+    width: 40vw;
+    height: auto;
+    margin: 10px 20px 20px 0;
+}
+
+.item > h6 {
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 50px;
+    height: auto; 
+    
+    display: block;
+    margin: 10px auto;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.admin-spacing {
+    margin: 0 30px;
+}
+
+.services-spacing {
+    margin-right: 50px;
+}
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
@@ -100,6 +164,22 @@ serviceImage {
         transform: translateY(-3%);
     }
 
+    .admin-grid {
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3"
+                             "item4";
+    }
+
+    .item {
+        width: 70vw;
+
+        text-align: center;
+
+        font-size: larger;
+        margin: 20px auto;
+    }
+
 }
 
 /*Small devices*/ 
@@ -112,10 +192,25 @@ serviceImage {
     
     .servicios-txt {
         transform: translateY(-3%);
-        height: 314px;
+        height: auto;
         padding: 30px;
     }
 
+    .admin-grid {
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3"
+                             "item4";
+    }
+
+    .item {
+        width: 80vw;
+
+        text-align: center;
+
+        font-size: larger;
+        margin: 20px auto;
+    }
 }
 
 /*Medium devices*/ 

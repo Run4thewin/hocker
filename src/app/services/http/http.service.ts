@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -13,9 +13,18 @@ export class HttpService {
     headers?: HttpHeaders | { [header: string]: string | string[] };
   }
 
-  apiURL = "";
+  private apiURL = "https://us-east1-software-factory-295023.cloudfunctions.net/sendEmail";
 
-  addForm(form : any) : Observable<any>{
-    return this.http.post(this.apiURL, form, this.options);
+  sendForm(form : any) : Observable<any>{
+
+    const message = {
+        "mailTo": "brendaluizacpereira@gmail.com",
+        "message": form.nombre + form.email + form.telefono + form.mensaje
+    }
+
+    return this.http.post(this.apiURL, message, this.options);
+    
   }
 }
+
+
