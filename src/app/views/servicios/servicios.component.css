@@ -95,10 +95,12 @@
 }
 
 .admin-grid {
-    width: auto;
+    width: 100vw;
     display: grid;
     grid-template-areas: "item1 item2"
                          "item3 item4";
+
+    margin: 0 auto;
 }
 
 .item1 {
@@ -122,8 +124,11 @@
 }
 
 .item {
+
     width: 40vw;
     height: auto;
+
+    text-align: center;
     margin: 10px 20px 20px 0;
 }
 
@@ -169,6 +174,7 @@
                              "item2"
                              "item3"
                              "item4";
+        margin-left: -30px;
     }
 
     .item {
@@ -177,7 +183,7 @@
         text-align: center;
 
         font-size: larger;
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
 }
@@ -201,6 +207,8 @@
                              "item2"
                              "item3"
                              "item4";
+        margin-left: -30px;
+
     }
 
     .item {
