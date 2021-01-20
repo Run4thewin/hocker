@@ -13,6 +13,9 @@ import { NosotrosComponent } from './views/nosotros/nosotros.component';
 /*Importig httpclient to structure api request*/
 import { HttpClientModule} from '@angular/common/http';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,7 @@ import { HttpClientModule} from '@angular/common/http';
     HttpClientModule,
     
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
