@@ -103,12 +103,15 @@
     font-size: 15px;
     padding-bottom: 15px;
     font-size: large;
+    display: inline;
 }
 
 .contactenos h1 {
     font-size: 25px;
     padding: 10px 0;
     color: #004077;
+
+    margin-bottom: 20px;
 }
 
 .contactenos h3 {
@@ -165,9 +168,22 @@
     margin: 10px 0 20px 0;
 }
 
+.contact-icon {
+    width: 50px;
+    height: auto;
+
+    padding-right: 10px;
+    display: inline;
+}
+
+.inline-item {
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 /*Tablets and small devices**/
-@media (max-width: 760px) {
+@media (max-width: 950px) {
 
     .formGrid {
         grid-template-areas: "name"
@@ -186,6 +202,7 @@
     .container-contact {
         position: relative;
     }
+
     .contactenos {
        text-align: center;
        padding: 20px;
@@ -199,6 +216,11 @@
         text-align: center;
         height: 400px;
     }
+
+    .map {
+        width: 400;
+        height: 250;
+    }
 }
 
 /*Extra small devices*/ 
@@ -207,4 +229,15 @@
     .vamosHablar {
         font-size: 30px;
     }
+
+    .contactenos {
+        text-align: center;
+        padding: 20px;
+     }
+
+     .map {
+        width: 400;
+        height: 250;
+    }
+ 
 }
