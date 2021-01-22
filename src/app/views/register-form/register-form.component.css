@@ -107,7 +107,7 @@
 }
 
 .contactenos h1 {
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 0;
     color: #004077;
 
@@ -158,7 +158,7 @@
 }
 
 .social-icon {
-    width: 40px;
+    width: 30px;
     height: auto;
 
     font-size: 20px;
@@ -169,7 +169,7 @@
 }
 
 .contact-icon {
-    width: 50px;
+    width: 30px;
     height: auto;
 
     padding-right: 10px;
@@ -178,9 +178,12 @@
 
 .inline-item {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
+.inline-item > p {
+    font-size: 15px;
+}
 
 /*Tablets and small devices**/
 @media (max-width: 950px) {
