@@ -111,7 +111,6 @@
 
     .mainsection-txt { 
        width: 270px;
-       font-size: 30px;
 
        margin-top: -270px; 
        margin-left: 20px;
@@ -134,6 +133,10 @@
     .mainsection-img3 {
         width: 500px;
         height: 150px;
+    }
+
+    .small-p {
+        font-size: auto;
     }
 
 }
@@ -174,7 +177,9 @@
         height: 250px;
     }
 
-
+    .small-p {
+        font-size: auto;
+    }
 }
 
 /*Medium devices*/ 

@@ -32,7 +32,10 @@
               "src/assets/nosotros-cover.jpg",
               "src/assets/vision.png",
               "src/assets/building.jpg",
-              "src/assets/check.png"
+              "src/assets/check.png",
+              "src/assets/phone.png",
+              "src/assets/house.png",
+              "src/assets/mail.png"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",

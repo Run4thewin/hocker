@@ -109,8 +109,9 @@ hr {
     display: none;
 }
 
-.nosotros-txt {    
-    height: 450px;
+.nosotros-txt {   
+    /*first version: height = 450px*/ 
+    height: fit-content;
 
     background-color:#fff;
     border-radius: 25px 25px 0 0;
@@ -153,6 +154,13 @@ hr {
     left: 0;
 }
 
+.p2 {
+    font-size: 15px;
+    margin: 15px;
+    color: #004077;
+    text-align: center;
+}
+
 .h1 {
     font-size: 30px;
     color: #004077;
@@ -175,6 +183,9 @@ hr {
     .nosotros-txt {
         max-width: 300px;
         margin-left: -150px;
+        /*test version*/
+        position: relative;
+        margin-top: 50px;
     }
     
     .nosotros-logo {
@@ -228,14 +239,26 @@ hr {
         font-size: 20px;
     }
 
+    .p2 {
+        font-size: 15px;
+    }
+
+    .fit-all {
+        height: fit-content;
+    }
+    
 }
 
 /*Small devices*/ 
 @media (min-width: 481px) and (max-width: 600px) {
 
     .nosotros-txt {
-        max-width: 500px;
-        margin-left: -250px;
+        /*original version: 500px
+        no-position, no-margin-top*/
+        max-width: 400px;
+        margin-left: -200px;
+        position: relative;
+        margin-top: 50px;
     }
     
     .nosotros-logo {

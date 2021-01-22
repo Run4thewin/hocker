@@ -3,15 +3,6 @@
     <p>COTIZACIONES E INFORMES</p>
 </div>
 
-<div class="row">
-    <div class="col-1"></div>
-
-    <div class="col-11">
-        <img class="register-logo" src="./assets/new_logo.png" alt="Hocker | Administracion Inmobiliaria & Servicios" width="240">
-    </div>
-</div> 
-
-
 <form class="formGrid" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
 
     <div class="nombre">
@@ -46,27 +37,35 @@
     <div class="col-1">
     </div>
 
+    <div class="col-md-5 map-align">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.6360531938753!2d-99.14475558509474!3d19.341592886936102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe2a54b3ffff%3A0x4b9aee57753a401b!2sCalz%20Taxque%C3%B1a%201239%2C%20Campestre%20Churubusco%2C%20Coyoac%C3%A1n%2C%2004200%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1spt-BR!2sbr!4v1611256098382!5m2!1spt-BR!2sbr" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </div>
+
     <div class="col-md-5 contactenos">
+        
         <h1>CONTÁCTENOS</h1>
 
-        <h3>DIRECCIÓN</h3>
-        <p>Calzada Taxqueña, 1239 - Campestre Churubusco, Coyoacán - Ciudad de México</p>
+        <span class="inline-item">
+            <img src="assets/house.png" class="contact-icon">
+            <p>Calzada Taxqueña, 1239, Oficina 4 - Campestre Churubusco, Coyoacán - Ciudad de México</p>
+        </span>
 
-        <h3>TELÉFONO</h3>
-        <p>55 5016 8173</p>
+        <span class="inline-item">
+            <img src="assets/phone.png" class="contact-icon">
+            <p>55 5016 8173</p>
+        </span>
 
-        <h3>CORREO ELECTRÓNICO</h3>
-        <p>info@hocker.com.mx</p>
+        <span class="inline-item">
+            <img src="assets/mail.png" class="contact-icon">
+            <p>info@hocker.com.mx</p>
+        </span>
 
-        <h1>REDES SOCIALES</h1>
-        <a href="https://www.instagram.com/lucibelecastro/?hl=knimg"><img src="assets/instagram.png" class="social-icon">@hockeradmon</a>
+        <a href="https://www.instagram.com/hockeradmon/"><img src="assets/instagram.png" class="social-icon">@hockeradmon</a>
         <br>
         <a href="https://pt-br.facebook.com/pg/administracionhocker/photos/"><img src="assets/facebook.png" class="social-icon">@administracionhocker</a>
     </div>
-
-    <div class="col-md-6 map-align">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7905212876717!2d-99.15037678509348!3d19.421454886890626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2862b31465%3A0xe6ed60d4b776a209!2sDr%20Jimenez%2058%2C%20Doctores%2C%20Cuauht%C3%A9moc%2C%2006720%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1spt-BR!2sbr!4v1608576642879!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+    <div class="col-1"></div>
 </div>
 </div>
 
