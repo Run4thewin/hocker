@@ -128,7 +128,7 @@
 
 .map {
     width: 80%;
-    height: 80%;
+    height: 50%;
 }
 
 .map-align {
@@ -217,12 +217,11 @@
 
     .map-align {
         text-align: center;
-        height: 400px;
     }
 
     .map {
         width: 400;
-        height: 250;
+        height: 100;
     }
 }
 
@@ -240,7 +239,7 @@
 
      .map {
         width: 400;
-        height: 250;
+        height: 100;
     }
  
 }
