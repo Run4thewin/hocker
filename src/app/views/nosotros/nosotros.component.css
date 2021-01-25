@@ -120,7 +120,6 @@ hr {
     position: absolute;
     bottom: 0;
     left: 50%;
-    margin-left: -450px;
 }
 
 .history {
@@ -317,8 +316,12 @@ hr {
 @media (min-width: 601px) and (max-width: 769px) {
 
     .nosotros-txt {
-        max-width: 500px;
-        margin-left: -250px;
+        /*original version: 500px
+        no-position, no-margin-top*/
+        max-width: 400px;
+        margin-left: -200px;
+        position: relative;
+        margin-top: 50px;
     }
     
     .nosotros-logo {
@@ -367,14 +370,19 @@ hr {
     .h1 {
         font-size: 35px;
     }
+
 }
 
 /* Tablets that have this very specific size*/
 @media (min-width: 770px) and (max-width: 900px) {
 
     .nosotros-txt {
-        max-width: 700px;
-        margin-left: -350px;
+        /*original version: 500px
+        no-position, no-margin-top*/
+        max-width: 400px;
+        margin-left: -200px;
+        position: relative;
+        margin-top: 50px;
     }
 
     .nosotros-logo {
