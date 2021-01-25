@@ -1,84 +1,47 @@
-<!--Header-navigation bar is here because it appears on every page-->
-
+<!-- Current header-->
 <header id="header">
   <nav class="navbar navbar-expand-sm navbar-light">
-
     <div class="container">
-      <a href="#" class="navbar-brand">
-        <img src="./assets/short_logo.png" alt="Hocker | Administracion Inmobiliaria y Servicios" width="142">
-      </a>
+          <a href="#" class="navbar-brand">
+            <img src="./assets/short_logo.png" alt="Hocker | Administración Inmobiliaria & Servicios" width="142">
+          </a>
 
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="main-nav">
+          <button class="navbar-toggler" aria-expanded="false" data-toggle="collapse" data-target="#nav" id="menuToggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item ml-3">
-                    <a routerLink="/inicio" class="nav-link">Inicio</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="/servicios" class="nav-link">Servicios</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="/nosotros" class="nav-link">Nosotros</a>
-                </li>
-
-                <li class="nav-item ml-3">
-                    <a routerLink="contact" class="nav-link">Contact</a>
-                </li>
+              <li class="nav-item ml-3">
+                <a routerLink="/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Inicio</a>
+              </li>
+                  
+              <li class="nav-item ml-3">
+                <a routerLink="/nosotros" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Quiénes somos</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                <a routerLink="/servicios" href="./views/servicios/servicios.component.html"  class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Servicios</a>
+              </li>
+    
+              <li class="nav-item ml-3">
+                  <a routerLink="/register" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Contacto</a>
+              </li>
             </ul>  
+        </div>
       </div>
-    </div>
   </nav>
-</header>
-<!--Header ends here-->
-
-<app-inicio></app-inicio>
-<app-nosotros></app-nosotros>
-<app-servicios></app-servicios>
-<app-register-form></app-register-form>
- <!--
-<head>
-
-</head>
-
-<header>
-  <nav>
-      <a href="index.html"><img id="logo" src="./assets/yellow-blue.png" alt="Sua Ajuda | Seu app de serviços!"></a>
-
-      <span class="hamburguer" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-    <!--<a routerLink="/main">Main Section</a>
-      <br/>
-      <br/>
-      <br/>
-      <a routerLink="/middle">Middle Section</a>
-  </nav>
-</header>
+</header> 
 
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Cadastrar</a>
-  <a href="#">Entrar</a>"
-</div>
-     
-<app-section-main></app-section-main>
-<app-section-two></app-section-two>
-<app-section-three></app-section-three>
-<app-section-four></app-section-four>
-<app-section-footer></app-section-footer>
 
-<script>
-  alert("OI");
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
+<div id="cookiesAlert">
+  <span id="closeCookies" class="close" onclick="closeAlert()">&times;</span>
   
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
-</script>-->
+    <p>Este sitio web, al igual que la mayoría de los sitios en Internet, usa Cookies para mejorar y
+      optimizar la experiencia del usuario. <br> <a class="cookiesAlert" href="http://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf">Más información</a></p>
+  
+  <button class="btn main-button" id="okCookies" onclick="closeAlert()">Aceptar</button>
+</div>
+
+<router-outlet></router-outlet>

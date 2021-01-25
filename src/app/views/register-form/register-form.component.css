@@ -4,12 +4,143 @@
     padding: 0;
 }
 
-.spacing {
-    height: 50px;
+.mensajeEnviado {
+    background-color:  #01d30b;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+
+    margin: 0 auto 50px auto;
 }
 
-.largespacing {
+
+.spacing {
     height: 100px;
+}
+
+.contactSection {
+    width: 100%;
+    height: 90%;
+    margin-top: 90px;
+}
+
+.vamosHablar {
+    font-size: 40px;
+    color: #004077;
+}
+
+.formGrid {
+    margin: 50px auto;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "name phone"
+                        "message email";
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 1fr 100%;
+}
+
+.nombre {
+    grid-area: name;
+    height: 60px;
+}
+
+.telefono    {
+    grid-area: phone;
+    height: 60px;
+}
+
+.mensaje-class {
+    grid-area: message;
+    height: 120px;
+}
+
+.email {
+    grid-area: email;
+    height: 120px;
+}
+
+.push-up {
+    margin-bottom: 0.8rem;
+    margin-top: -17px;
+    border: 2px solid #004077;
+    padding: 10px;
+}
+
+.mensaje {
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn-blue {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color:#004077;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn-blue:hover {
+    background-color: #106cbd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.label {
+    background-color: #fff;
+    color: #004077;
+    margin-left: 20px;
+}
+
+.contactenos p {
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    display: inline;
+}
+
+.contactenos h1 {
+    font-size: 20px;
+    padding: 10px 0;
+    color: #004077;
+
+    margin-bottom: 20px;
+}
+
+.contactenos h3 {
+    font-size: 22px;
+    padding: 10px 0;
+    color: #004077;
+}
+
+.container-contact {
+    background-color: #0040772f;
+    padding: 90px 0;
+    height: 100%;
+}
+
+.map {
+    width: 80%;
+    height: 50%;
+}
+
+.map-align {
+    text-align: left;
+}
+
+/* The Close Button of the Modal*/
+.close {
+	color: rgb(252, 248, 248);
+	float: right;
+	font-size: 15px;
+	font-weight: lighter;
 }
 
 .modalError {
@@ -21,182 +152,94 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.modalError p {
+.modalError .texto {
     color: #fff ;
-    font-size: 20px;
-}
-
-/* The Close Button of the Modal*/
-.close {
-	color: rgb(252, 248, 248);
-	float: right;
-	font-size: 15px;
-	font-weight: lighter;
-}
-
-p {
-    font-size: 50px;
-    color: #004077;
-}
-
-.form label {
-    color: #004077;
-    background-color: #fff;
-    padding-left: 5px;
-    margin-left: 12px;
-}
-
-.form input {
-    border: 2px solid #004077;
-    width: 90%;
-    height: 7vh;
-}
-
-.md-form {
-    margin-bottom: 0.8rem;
-    margin-top: -17px;
-}
-
-#message {
-    border: 2px solid #004077;
-    width: 90%;
-    height: 17vh;
-}
-
-.btn-contact {
-    width: 90%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color:#004077;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.btn-contact:hover {
-    background-color: #f57727;
-}
-
-.contactenos p {
     font-size: 15px;
-    padding: 10px 0 10px 0;
 }
 
-.contactenos h1 {
-    font-size: 25px;
-    color: #004077;
-    padding: 10px 0 10px 0;
+.social-icon {
+    width: 30px;
+    height: auto;
+
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+    margin: 7px 0 20px 0;
 }
 
-.contactenos h3 {
-    font-size: 22px;
-    color: #004077;
-    padding: 10px 0 10px 0;
+.contact-icon {
+    width: 30px;
+    height: auto;
+
+    padding-right: 10px;
+    display: inline;
 }
 
-.container-contact {
-    background-color: #0040772f;
-    padding: 90px 0 70px 0;
+.inline-item {
+    display: block;
+    margin-bottom: 7px;
 }
 
+.inline-item > p {
+    font-size: 15px;
+}
 
+/*Tablets and small devices**/
+@media (max-width: 950px) {
+
+    .formGrid {
+        grid-template-areas: "name"
+                            "phone"
+                            "message"
+                            "email";
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-rows: 40px 40px 90px 140px;
+    }
+
+    .register-logo {
+        display: none;
+    }
+    
+    .container-contact {
+        position: relative;
+    }
+
+    .contactenos {
+       text-align: center;
+       padding: 20px;
+    }
+
+    .contactenos p {
+        font-size: larger;
+    }
+
+    .map-align {
+        text-align: center;
+    }
+
+    .map {
+        width: 400;
+        height: 100;
+    }
+}
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
 
-    .register-logo {
-        display: none;
-    }
-   
-    .contactenos {
-        margin-left: 50px;
-        margin-right: 40px;
-    }
-
-    .contactenos p {
-        font-size: larger;
-    }
-
-    .map {
-        margin: 100px auto auto auto;
-    }
-}
-
-/*Small devices*/ 
-@media (min-width: 481px) and (max-width: 600px) {
-
-    .register-logo {
-        display: none;
-    }
-    
-    .contactenos {
-        margin-left: 60px;
-        margin-right: 40px;
-    }
-
-    .contactenos p {
-        font-size: larger;
-    }
-
-    .map {
-        margin-top: 100px;
-        width: 100vw;
-    }
-    
-
-}
-
-/*Medium devices*/ 
-@media (min-width: 601px) and (max-width: 750px) {
-
-    .register-logo {
-        display: none;
+    .vamosHablar {
+        font-size: 30px;
     }
 
     .contactenos {
-        margin-left: 70px;
-        margin-right: 40px;
+        text-align: center;
+        padding: 20px;
+     }
+
+     .map {
+        width: 400;
+        height: 100;
     }
-
-    .contactenos p {
-        font-size: larger;
-    }
-
-    .map {
-        margin: 100px auto auto 150px;
-    }
-
-}
-
-/* Tablets that have this very specific size*/
-@media (min-width: 751px) and (max-width: 900px) {
-
-    .register-logo {
-        display: none;
-    }
-
-    .contactenos {
-        margin-left: 70px;
-        margin-right: 40px;
-    }
-
-    .contactenos p {
-        font-size: larger;
-    }
-
-    .map {
-        margin: 100px auto auto 150px;
-    }
-}
-
-/* Large devices*/
-@media (min-width: 901px) {
-    .map {
-        width: 500px;
-        height: 400px;
-    }
-
-    .contactenos p {
-        font-size: larger;
-    }
+ 
 }

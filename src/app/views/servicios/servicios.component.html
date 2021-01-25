@@ -1,36 +1,354 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 spacing">
+<div class="container"><div class="row spacing"></div></div>
 
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
+<div class="container-fluid servicesSection">
     <div class="row">
         <div class="col-1">
         </div>
-
-        <div class="col-md-5">
-            <h1>Servicios</h1>
-
+        
+        <div class="col-md-5" id="servicesList">
+            <h1 class="serviciosh1">Servicios</h1>
             <ul>
-                <li><a href="#">ADMINISTRACION DE CONDOMINIOS Y EDIFICIOS</a></li>
-                <li><a href="#">MANTENIMIENTO GENERAL</a></li>
-                <li><a href="#">LIMPIEZA RESIDENCIAL, COMERCIAL E INDUSTRIAL</a></li>
-                <li><a href="#">SEGURIDAD PRIVADA Y CONSERJERIA</a></li>
-                <li><a href="#">SOLUCIONES JURIDICAS</a></li>
-                <li><a href="#">VENTA Y RENTA DE PROPIEDADES</a></li>
-
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('administracion')">ADMINISTRACIÓN DE CONDOMINIOS</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('limpieza')">LIMPIEZA RESIDENCIAL, COMERCIAL E INDUSTRIAL</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('conserjeria')">CONSERJERÍA</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('seguridad')">VIGILANCIA</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('personal')">PERSONAL DE MANTENIMIENTO</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('mantenimiento')">MANTENIMIENTO GENERAL</p></li>
+                <li class="services-outerList"><p class="servicios-p" onclick="displayServicios('venta')">VENTA Y RENTA DE PROPIEDADES</p></li>
             </ul>
         </div>
 
-        <div class="col-md-6 text-center">
+        <!--Main image begins-->
+        <div class="col-md-6 text-center serviceImage" id="mainImg">
             <img class="servicios-img" src="assets/building.jpg">
-            <p class="servicios-txt">Höcker es la mejor opción en el mercado para vender, 
-                rentar o promocionar su propiedad. Te brindamos la asesoría correcta a efecto 
-                de llevar a cabo esta tan seria decisión, acompañándote en todo momento para 
-                concretar la con la persona o empresa que mas favorezca su oferta.</p>
+            <p class="servicios-txt">En Höcker nos hemos encargado de reunir a un grupo de profesionales con 
+                el fin de consolidar un concepto innovador en la administración de inmuebles, teniendo como 
+                factor preponderante el incrementar de manera gradual la plusvalía de su patrimonio.
+            </p>
         </div>
+        <!--Main image ends-->
+
+        
+        <!--Administracion section begins-->
+        
+        <div class="row" id="displayAdministracion" class="admin-spacing" style="display: none;">
+
+            <div class="row services-spacing">
+    
+                <div class="col-md-5 service">
+                    
+                    <h3 class="serviciosh3">Administración de condominios</h3>
+        
+                        <span class="title">
+                            ¿PORQUE CONTRATAR A UN ADMINISTRADOR EXTERNO?
+                        </span>
+        
+                        <ul class="admin-ul">
+                            <li>
+                                &#8226; No tiene intereses personales en el condominio, lo que le permite tomar decisiones neutrales y desempeñarse de forma imparcial en beneficio de todos los propietarios y del condominio.
+                            </li>
+        
+                            <li>
+                                &#8226; Conoce la Ley de Propiedad en Condominio de Inmuebles para el Distrito Federal, y resulta de verdad útil.
+                            </li>
+                            
+                            <li>
+                                &#8226; Ha desarrollado habilidades para el manejo de conflictos y tiene los conocimientos de organización necesarios para brindar el servicio.
+                            </li>
+        
+                            <li>
+                                &#8226; A un administrador externo, que cobre por su función se le puede pedir resultados siempre y, si no los da, es posible cambiarlo.
+                            </li>
+                        </ul>
+        
+                        <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+                </div>
+                    
+                <div class="col-md-6 text-center serviceImage" id="administracionImg" style="display: none;">
+                    <img class="servicios-img" src="assets/administration.jpg">
+                    <p class="servicios-txt"> Höcker ofrece servicios inmobiliarios de excelente calidad con la finalidad de mantener e incrementar la plusvalía del inmueble adquirido, así como otorgar en todo momento la tranquilidad y seguridad a nuestros clientes.</p>
+                </div>
+            </div>
+        
+            <div class="row services-spacing">
+
+                <div class="col-12 service">
+                    <span class="title">
+                        ¿QUE SERVICIOS INCLUYE SE CONTRATAS A HÖCKER COMO EMPRESA DE ADMINISTRACIÓN PARA SU CONDOMINIO?         
+                    </span><br>
+            
+                    <ul class="admin-ul">
+                        <li>
+                            &#8226; Elaboración de planes de trabajo (corto, mediano y longo plazo) sobre las necesidades específicas de cada condominio
+                        </li>
+            
+                        <li>
+                            &#8226; Entrega mensual de reportes administrativos (estado de cuenta de ingresos y egresos, lista de deudores y emisión de recibos de pago)
+                        </li>
+            
+                        <li>
+                            &#8226; Cobro de cuotas de mantenimiento
+                        </li>
+            
+                        <li>
+                            &#8226; Seguimiento a las disposiciones del reglamento interno del condominio y la ley correspondiente
+                        </li>
+            
+                        <li>
+                            &#8226; Representación ante instancias administrativas
+                        </li>
+            
+                        <li>
+                            &#8226; Solicitud de cotizaciones y aprobación de las mismas ante el órgano de la asamblea o junto con el comité de vigilancia
+                        </li>
+            
+                        <li>
+                            &#8226; Realización de Asambleas Generales de Condóminos
+                        </li>
+            
+                        <li>
+                            &#8226; Control, pago y supervisión de los servicios proporcionados por terceros (gas, luz, agua, etc.)
+                        </li>
+            
+                        <li>
+                            &#8226; Supervisión constante a proveedores 
+                        </li>
+            
+                        <li>
+                            &#8226; Entre otros…
+                        </li>
+            
+                    </ul><br>
+                </div>
+            </div>
+
+            <div class="row services-spacing">
+                <div class="col-12 text-center service">
+                    <span class="title">                    
+                        ¿PORQUE CONTRATAR A HÖCKER COMO SU ADMINISTRADOR PROFESIONAL?
+                    </span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 admin-grid service">
+                    <div class="item item1">
+                        <img class="circle" src="assets/check.png">
+                        <h6>EMPRESA LEGALMENTE CONSTITUIDA</h6>   
+                        <p>
+                            Y legalmente registrados y certificados por la PROSOC
+                        </p>
+                    </div>
+
+                    <div class="item item2">
+                        <img class="circle" src="assets/check.png">
+                        <h6>
+                            EXPERIENCIA PROFESIONAL 
+                        </h6>
+                        <p>
+                            Mas de 10 años de experiencia en el ámbito condominal
+                        </p>
+                    </div>
+
+                    <div class="item item3">
+                        <img class="circle" src="assets/check.png">
+                        <h6>
+                            BASE 
+                        </h6>
+                        <p>
+                            Base direccional de profesionistas en las Licenciaturas en Derecho y Administración de empresas
+                        </p>
+                    </div>
+
+                    <div class="item item4">
+                        <img class="circle" src="assets/check.png">
+                        <h6>
+                            PLUS 
+                        </h6>
+                        <p>
+                           En la contratación del servicio de la Administración de tu condominio, Höcker ofrece a todos los titulares de los departamentos la asesoría legal gratuita en las siguientes áreas:
+                        </p>
+                        <br>
+                        <ul>
+                            <li>&#8226; Civil  </li>
+                            <li>&#8226; Familiar  </li>
+                            <li>&#8226; Laboral  </li>
+                            <li>&#8226; Mercantil  </li>
+                        </ul>
+                    </div>
+                    <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+                </div>
+            </div>
+            
+        </div>
+            
+        <div class="col-md-6 text-center serviceImage" id="administracionImg" style="display: none;">
+            <img class="servicios-img" src="assets/administration.jpg">
+            <p class="servicios-txt">Höcker ofrece servicios inmobiliarios de excelente calidad y servicio con la finalidad de mantener e incrementar la plusvalía del inmueble adquirido, así como otorgar en todo momento la tranquilidad y seguridad a nuestros clientes.</p>
+        </div>
+        <!--Administracion section ends-->
+
+        <!--Mantenimiento section begins-->
+
+            <div class="col-md-5 service" id="displayMantenimiento" style="display: none;">
+
+                <h3 class="serviciosh3">Mantenimiento general</h3>
+
+                <p style="font-weight: bold;"> 
+                        Áreas de trabajo:
+                </p><br>
+
+                <ul>
+                    <li>&#8226; Pintura</li>
+                    <li>&#8226; Plomería</li>
+                    <li>&#8226; Electricidad</li>
+                    <li>&#8226; Carpintería</li>
+                    <li>&#8226; Jardinería</li>
+                    <li>&#8226; Tabla roca</li>
+                    <li>&#8226; Acabados</li>
+                    <li>&#8226; Entre otros.</li>
+                </ul>
+
+                <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+
+            </div>
+
+            <div class="col-md-6 text-center serviceImage" id="mantenimientoImg" style="display: none;">
+                <img class="servicios-img" src="assets/maintenance.jpg">
+                <p class="servicios-txt">Estamos claros de la importancia de un mantenimiento integral 
+                    constante a nuestro patrimonio, a nivel residencial, comercial e industrial, que 
+                    aumenta de manera gradual el valor inmobiliario de su propiedad, 
+                    da seguridad y optimiza el uso diario de las instalaciones y servicios y 
+                    propicia un ambiente armónico.</p> 
+            </div>
+        <!--Mantenimiento section ends-->
+
+        <!--Limpieza section starts-->
+
+            <div class="col-md-5 service" id="displayLimpieza" style="display: none;">
+
+                <h3 class="serviciosh3">Limpieza residencial, comercial e industrial</h3>
+
+                <p>
+                    <span>Sector Residencial (áreas comunes):</span><br> Condominios, edificios residenciales. <br><br>
+                    <span>Sector Empresarial:</span><br> Oficinas, empresas, corporativos, edificios, agencias, despachos, 
+                    spas, gimnasios, sucursales, centros comerciales, escuelas, universidades, laboratorios, clínicas, 
+                    hospitales, bancos. <br><br>
+                    <span>Sector Industrial:</span><br> Fábricas y plantas industriales. <br><br>
+                </p>
+
+                <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+
+            </div>
+
+            <div class="col-md-6 text-center serviceImage" id="limpiezaImg" style="display: none;">
+                <img class="servicios-img" src="assets/cleaning.jpg">
+
+                <p class="servicios-txt">
+                    Contamos con personal especializado y equipos necesarios para la realización de actividades de menor y mayor complejidad, garantizando a nuestros clientes el cuidado de los acabados y un servicio de limpieza integral.
+                </p>
+            </div>
+        <!--Limpieza section ends-->
+
+        <!--Conserjeria section starts-->
+
+        <div class="col-md-5 service" id="displayConserjeria" style="display: none;">
+
+            <h3 class="serviciosh3"> Conserjería </h3>
+
+            <p>
+                Servicio diseñado primordialmente para satisfacer las necesidades básicas de los miembros que habitan un condominio, apoyando en actividades básicas como:
+                Estar al pendiente de la puerta de acceso al condominio, realizar trabajos menores de mantenimiento y cuidado de las áreas comunes, encender y apagar luces, limpiar áreas comunes, recibir correspondencias, notificar cualquier problema o incidente a Höcker, entre otros...
+            </p>
+
+            <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+        </div>
+
+        <div class="col-md-6 text-center serviceImage" id="conserjeriaImg" style="display: none;">
+            <img class="servicios-img" src="assets/conserjeria.jpg">
+            <p class="servicios-txt">
+                Limpieza y Control de accesos en un solo servicio.
+            </p>
+        </div>
+        <!--Conserjeria section ends-->
+
+        <!--Vigilancia section starts-->
+
+        <div class="col-md-5 service" id="displaySeguridad" style="display: none;">
+
+            <h3 class="serviciosh3"> Vigilancia </h3>
+
+            <p>
+                Ofrecemos un servicio apegado a las normas de seguridad pública con personal capacitado operativamente y con el registro correspondiente otorgado por la Secretaria de Seguridad Pública.
+ 
+                El personal se capacita en el ámbito de vigilancia, disciplina, lealtad, responsabilidad, autoformación y defensa personal. Todo esto para salvaguardar y proteger los intereses y propiedades de nuestros clientes, con el objeto de prevenir siniestros, ilícitos y cualquier desastre que pudiera llegarse a presentar dentro de las instalaciones de servicio.
+ 
+                Los vigilantes cuentan con uniforme y equipo de intercomunicación para reportar cualquier anomalía a la base de la empresa, siendo supervisados de manera constante.
+            </p>
+            <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+        </div>
+
+        <div class="col-md-6 text-center serviceImage" id="seguridadImg" style="display: none;">
+            <img class="servicios-img" src="assets/security.jpg">
+            <p class="servicios-txt">
+                Para brindarle un servicio de calidad nuestros vigilantes cuentan con capacitación, uniforme y equipo de intercomunicación. 
+            </p>
+        </div>
+        <!--Vigilancia section ends-->
+
+        <!--Personal de mantenimiento section starts-->
+
+        <div class="col-md-5 service" id="displayPersonal" style="display: none;">
+
+            <h3 class="serviciosh3">Personal de mantenimiento</h3>
+            <p>
+                Te ofrecemos una solución para el mantenimiento de tu inmueble, mediante la contratación de un técnico residente con conocimientos de electricidad, carpintería, albañilería, plomería, entre otros.  
+            </p>
+
+            <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+
+        </div>
+
+        <div class="col-md-6 text-center serviceImage" id="personalImg" style="display: none;">
+            <img class="servicios-img" src="assets/personal.jpg">
+            <p class="servicios-txt">
+                El mejor equipo de mantenimiento para garantizar el mejor ambiente en tu condominio.
+            </p>
+        </div>
+        <!--Personal de mantenimiento section ends-->
+        
+        <!--Venta section starts-->
+
+        <div class="col-md-5 service" id="displayVenta" style="display: none;">
+
+            <h3 class="serviciosh3">Venta y renta de propiedades</h3>
+
+            <p>
+                <span>Promoción, Renta o Venta: </span> <br>Realizamos la promoción de su propiedad, a través de diferentes medios como: web marketing, redes sociales, mantas o lonas, etc.
+                <br><br>
+                <span>Búsqueda y Selección: </span> <br>En una entrevista personal, realizamos un esquema general sobre sus pretensiones de compra o renta, y llevamos a cabo la búsqueda requerida a efecto de encontrar la propiedad de sus sueños.
+                <br><br>
+                <span>Administración: </span> <br> Realizamos todo el proceso de promoción de su propiedad, así como la solicitud y recepción de todos los documentos necesarios para arrendar. Posteriormente se realiza la investigación de los probables inquilinos, para seleccionar al mejor candidato y terminar con la firma del contrato de arrendamiento. Durante la vigencia del contrato se realiza la gestión del pago de las rentas y cualquier procedimiento personal o judicial que para el caso se requiera.                
+            </p>
+
+            <a class="volver" href="javascript:window.location.href=window.location.href" class="nav-link">&larr; Todos los servicios</a>
+
+        </div>
+
+        <div class="col-md-6 text-center serviceImage" id="ventaImg" style="display: none;">
+
+            <img class="servicios-img" src="assets/sale.jpg">
+            <p class="servicios-txt">Höcker es la mejor opción en el mercado para vender, rentar o promocionar su 
+                propiedad. Te brindamos la asesoría correcta a efecto de llevar a cabo esta tan seria decisión, 
+                acompañándote en todo momento para concretar la con la persona o empresa que más favorezca su oferta.
+            </p>
+
+        </div>
+        <!--Venta section ends-->
     </div>
+
 </div>
+
+
+<router-outlet></router-outlet>
+<app-register-form></app-register-form>

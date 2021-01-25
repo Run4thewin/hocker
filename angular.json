@@ -27,9 +27,15 @@
               "src/favicon.ico",
               "src/assets",
               "src/assets/nosotros-cover.jpg",
+              "src/assets/mainsection-img.png",
               "src/assets/mainsection-img3.png",
               "src/assets/nosotros-cover.jpg",
-              "src/assets/vision.png"
+              "src/assets/vision.png",
+              "src/assets/building.jpg",
+              "src/assets/check.png",
+              "src/assets/phone.png",
+              "src/assets/house.png",
+              "src/assets/mail.png"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -59,13 +65,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumError": "5kb"
                 }
               ]
             }
