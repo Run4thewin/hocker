@@ -31,7 +31,8 @@ hr {
 }
 
 .nosotros-valores-img {
-    display: none;
+    width: 500px;
+    height: auto;
 }
 
 .nosotros-img1 {
@@ -357,6 +358,10 @@ hr {
 
         margin: auto;
         margin-bottom: 50px;
+    }
+
+    .nosotros-valores-img {
+        display: none;
     }
 
     hr {
