@@ -505,8 +505,8 @@ hr {
     }
 
     .nosotros-valores-img {
-        width: 600px;
-
+        width: 500px;
+        height: auto;
         padding-right: 100px;
         transform: translateY(70%);
 

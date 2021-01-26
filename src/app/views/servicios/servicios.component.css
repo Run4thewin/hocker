@@ -7,6 +7,12 @@
 .service a {
     margin: 20px 0;
     font-size: 20px;
+    color: dodgerblue;
+}
+
+.service a:hover {
+    cursor: pointer;
+    color: #004077;
 }
 
 .spacing {
@@ -31,6 +37,10 @@
 
 .service {
     padding: 30px;
+}
+
+.service p {
+    line-height: 2;
 }
 
 .serviceImage {
@@ -155,6 +165,7 @@
 .services-spacing {
     margin-right: 50px;
 }
+
 
 /*Extra small devices*/ 
 @media (max-width: 480px) {
