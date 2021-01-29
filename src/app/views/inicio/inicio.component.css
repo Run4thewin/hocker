@@ -102,7 +102,8 @@
 @media (max-width: 480px) {
 
     .bienvenido {
-        background: url("src\assets\mainsection-img-sm.png");  
+        background: url("src\assets\mainsection-img-sm.png");
+        background-repeat: no-repeat;  
     }
 
     .first-img {
@@ -136,7 +137,7 @@
     }
 
     .small-p {
-        font-size: auto;
+        font-size: 30px;
     }
 
 }
@@ -146,6 +147,7 @@
 
     .bienvenido {
         background: url("src\assets\mainsection-img-sm.png");
+        background-repeat: no-repeat;
     }
 
     .first-img {
@@ -178,7 +180,7 @@
     }
 
     .small-p {
-        font-size: auto;
+        font-size: 30px;
     }
 }
 
@@ -187,6 +189,7 @@
 
     .bienvenido {
         background: url("src\assets\mainsection-img-md.png");
+        background-repeat: no-repeat;
     }
 
     .first-img {
@@ -224,6 +227,7 @@
 
     .bienvenido {
         background: url("src\assets\mainsection-img-md.png");
+        background-repeat: no-repeat;
     }
 
     .first-img {
