@@ -1,5 +1,5 @@
 * {
-    overflow: hidden;
+    overflow: visible;
     margin: 0;
     padding: 0;
 }
@@ -22,17 +22,14 @@ hr {
     z-index: 5;
 }
 
-.nosotros-mision-img {
-    display: none;
-}
-
-.nosotros-vision-img {
-    display: none;
+.fit-valores-img {
+    height: 90vh;
 }
 
 .nosotros-valores-img {
     width: 500px;
     height: auto;
+    transform: translateY(60%);
 }
 
 .nosotros-img1 {
@@ -65,49 +62,45 @@ hr {
     margin-bottom: 100px;
 }
 
-.nosotros-mision-txt {
-    
+.mision-vision-valores {
     color: #fff;
     background-color: #004077;
     border-radius: 25px;
     font-size: 20px;
     padding: 30px;
     line-height: 40px;
+    text-align: center;
 
     z-index: 1;
-    text-align: center;
-    align-self: center;
+    display: inline;
+}
+
+.mision-vision-valores-row {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.image {
+    display: inline;
+    margin: auto;
+}
+
+.nosotros-mision-txt, .nosotros-valores-txt {
+    transform: translateX(20%);
+}
+
+.nosotros-mision-img,
+.nosotros-vision-img {
+    width: 400px;
+    z-index: 0;
+}
+
+.nosotros-vision-img {
+    transform: translateX(20%);
 }
 
 .nosotros-vision-txt {
-    
-    color: #fff;
-    background-color: #004077;
-    align-self: center;
-    border-radius: 25px;
-    font-size: 20px;
-    padding: 50px 20px;
-    line-height: 40px;
-
-    z-index: 1;
-    text-align: center;    
-}
-
-.nosotros-valores-txt {
-    color: #fff;
-    background-color: #004077;
-    border-radius: 25px;
-    font-size: 20px;
-    padding: 30px 20px;
-    line-height: 40px;
-    margin-bottom: 150px;
-
-    z-index: 1;
-    text-align: center;
-}
-
-.smdevice-img {
-    display: none;
+    transform: translate(-40%, 20%);
 }
 
 .nosotros-txt {   
@@ -117,7 +110,7 @@ hr {
     background-color:#fff;
     border-radius: 25px 25px 0 0;
     padding: 15px;
-
+    
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -174,6 +167,7 @@ hr {
 }
 
 .nosotros-txt2 {
+    text-align: left;
     color: #004077;
 }
 
@@ -186,10 +180,6 @@ hr {
         /*test version*/
         position: relative;
         margin-top: 50px;
-    }
-    
-    .nosotros-logo {
-        display: none;
     }
     
     .nosotros-txt1 h1 {
@@ -218,19 +208,6 @@ hr {
         border: 5px solid #004077;
     }
 
-    .mision-vision-valores {
-        width: 90vw;
-
-        border-radius: 8px;
-
-        margin: 20px;
-    }
-
-    .nosotros-valores-img {
-        display: none;
-
-    }
-    
     hr {
         display: none;
     }
@@ -246,6 +223,18 @@ hr {
     .fit-all {
         height: fit-content;
     }
+
+    .nosotros-mision-img, 
+    .nosotros-vision-img,
+    .nosotros-valores-img {
+        display: none;
+    }
+
+    .mision-vision-valores {
+        display: block;
+        margin: 10px;
+        transform: none;
+    }
     
 }
 
@@ -260,11 +249,7 @@ hr {
         position: relative;
         margin-top: 50px;
     }
-    
-    .nosotros-logo {
-        display: none;
-    }
-    
+
     .nosotros-txt1 h1 {
         color: #004077;
         line-height: 100px;
@@ -288,27 +273,24 @@ hr {
         border: 5px solid #004077;
     }
 
-    .nosotros-valores-img {
-        display: none;
-
-    }
-
-    .mision-vision-valores {
-        width: 80vw;
-
-        border-radius: 8px;
-
-        margin: auto;
-        margin-bottom: 50px;
-    }
-
-
     hr {
         display: none;
     }
 
     .p1 {
         font-size: 30px;
+    }
+
+    .nosotros-mision-img, 
+    .nosotros-vision-img,
+    .nosotros-valores-img {
+        display: none;
+    }
+
+    .mision-vision-valores {
+        display: block;
+        margin: 10px;
+        transform: none;
     }
     
 }
@@ -323,10 +305,6 @@ hr {
         margin-left: -200px;
         position: relative;
         margin-top: 50px;
-    }
-    
-    .nosotros-logo {
-        display: none;
     }
     
     .nosotros-txt1 h1 {
@@ -351,19 +329,6 @@ hr {
         border: 6px solid #004077;
     }
 
-    .mision-vision-valores {
-        width: 80vw;
-
-        border-radius: 8px;
-
-        margin: auto;
-        margin-bottom: 50px;
-    }
-
-    .nosotros-valores-img {
-        display: none;
-    }
-
     hr {
         display: none;
     }
@@ -376,6 +341,18 @@ hr {
         font-size: 35px;
     }
 
+    .nosotros-mision-img, 
+    .nosotros-vision-img,
+    .nosotros-valores-img {
+        display: none;
+    }
+
+    .mision-vision-valores {
+        display: block;
+        margin: 10px;
+        transform: none;
+    }
+    
 }
 
 /* Tablets that have this very specific size*/
@@ -388,12 +365,6 @@ hr {
         margin-left: -200px;
         position: relative;
         margin-top: 50px;
-    }
-
-    .nosotros-logo {
-        width: 80%;
-
-        margin-top: 150px;
     }
     
     .nosotros-txt1 h1 {
@@ -418,15 +389,6 @@ hr {
         border: 5px solid #004077;
     }
 
-    .mision-vision-valores {
-        width: 80vw;
-
-        border-radius: 8px;
-
-        margin: auto;
-        margin-bottom: 50px;
-    }
-
     hr {
         display: none;
     }
@@ -439,17 +401,29 @@ hr {
         font-size: 35px;
     }
 
+    .nosotros-mision-img, 
+    .nosotros-vision-img,
+    .nosotros-valores-img {
+        display: none;
+    }
+
+    .mision-vision-valores-row {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .mision-vision-valores {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        transform: none;
+    }
+    
 }
 
 /* Large devices*/
 @media (min-width: 901px) {
     
-    .nosotros-logo {
-        width: 20vw;
-
-        margin-top: 100px;
-    }
-
     .nosotros-txt {
         max-width: 800px;   
         max-height: 400px;
@@ -481,44 +455,8 @@ hr {
         height: 40vh;
     }
 
-    .nosotros-mision-txt {
-        transform: translateX(20%);
-    }
-
-    .nosotros-mision-img {
-        width: 500px;
-
-        display: block;
-        z-index: 0;
-    }
-    
     .nosotros-vision-txt {
-        transform: translate(-27%, 10%);
-    }
-    
-    .nosotros-vision-img {
-        width: 400px;
-
-        display: block;
-        z-index: 0;
-        align-self: center;
-        margin-left: 120px;
+        margin-bottom: 50px;
     }
 
-    .nosotros-valores-txt {
-        transform: translateX(20%);
-    }
-
-    .nosotros-valores-img {
-        width: 500px;
-        height: auto;
-        padding-right: 100px;
-        transform: translateY(70%);
-
-        display: block;
-        z-index: 0;
-        align-self: center;
-        margin: 0 150px 0 0;
-        
-    }
 }

@@ -39,8 +39,10 @@
     padding: 30px;
 }
 
-.service p {
-    line-height: 2;
+.service > p , 
+.service > ul > li {
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .serviceImage {
@@ -49,6 +51,11 @@
 
 .servicios-img {
     width: 70%;
+    margin:auto;
+}
+
+.conserjeria-img {
+    width: auto;
     margin:auto;
 }
 
@@ -159,7 +166,7 @@
 }
 
 .admin-spacing {
-    margin: 0 30px;
+    margin: 0 100px;
 }
 
 .services-spacing {
@@ -197,6 +204,12 @@
         margin: 0 auto;
     }
 
+    .admin-spacing {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+
 }
 
 /*Small devices*/ 
@@ -230,6 +243,12 @@
         font-size: larger;
         margin: 20px auto;
     }
+
+    .admin-spacing {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
 }
 
 /*Medium devices*/ 
@@ -250,6 +269,11 @@
     .servicios-txt {
         transform: translateY(-10%);
         padding: 30px;
+    }
+
+    .admin-spacing {
+        margin-left: 0;
+        margin-right: 30px;
     }
 
 }
@@ -275,6 +299,10 @@
     .servicios-txt {
         transform: translateY(-10%);
         padding: 30px;
+    }
+
+    .admin-spacing {
+        margin: 0 30px;
     }
 
 }
