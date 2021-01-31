@@ -14,6 +14,13 @@ import { NosotrosComponent } from './views/nosotros/nosotros.component';
 import { HttpClientModule} from '@angular/common/http';
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { AdministracionComponent } from './views/administracion/administracion/administracion.component';
+import { MantenimientoComponent } from './views/mantenimiento/mantenimiento/mantenimiento.component';
+import { LimpiezaComponent } from './views/limpieza/limpieza/limpieza.component';
+import { ConserjeriaComponent } from './views/conserjeria/conserjeria/conserjeria.component';
+import { VigilanciaComponent } from './views/vigilancia/vigilancia/vigilancia.component';
+import { PersonalComponent } from './views/personal/personal/personal.component';
+import { VentaComponent } from './views/venta/venta/venta.component';
 
 
 
@@ -24,6 +31,13 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     InicioComponent,
     ServiciosComponent,
     NosotrosComponent,
+    AdministracionComponent,
+    MantenimientoComponent,
+    LimpiezaComponent,
+    ConserjeriaComponent,
+    VigilanciaComponent,
+    PersonalComponent,
+    VentaComponent,
     
   ],
   imports: [
