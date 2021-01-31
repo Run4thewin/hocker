@@ -4,6 +4,52 @@
     padding: 0;
 }
 
+.container {
+    margin: 100px auto 0 auto;
+}
+
+.services-div {
+    margin: 0 30px;
+}
+
+.h1 {
+    color: #004077;
+    margin-bottom: 10px;
+}
+
+.services-list {
+    margin-top: 10px;
+}
+
+.services-list > a {
+    text-decoration: none;
+
+
+}
+.services-list > a:hover {
+    color: #004077;
+}
+
+.services-image {
+    width: 70%;
+}
+
+.services-text {
+    width: fit-content;
+    background-color: #004077;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 13px;
+}
+
+@media (max-width: 750px) {
+    .image-div {
+        margin-top: 40px;
+    }
+}
+
+/*
 .service a {
     margin: 20px 0;
     font-size: 20px;
@@ -29,7 +75,7 @@
     padding-bottom: 20px;
 }
 
-/*Attention! All spans are formatted*/
+/*Attention! All spans are formatted
 .service span {
     font-weight: bold;
     margin-top: 15px;
@@ -174,7 +220,7 @@
 }
 
 
-/*Extra small devices*/ 
+/*Extra small devices
 @media (max-width: 480px) {
 
     .services-outerList {
@@ -212,7 +258,7 @@
 
 }
 
-/*Small devices*/ 
+/*Small devices
 @media (min-width: 481px) and (max-width: 600px) {
     .services-outerList {
         list-style-type: none;
@@ -251,7 +297,7 @@
 
 }
 
-/*Medium devices*/ 
+/*Medium devices
 @media (min-width: 601px) and (max-width: 750px) {
 
     .services-outerList {
@@ -278,7 +324,7 @@
 
 }
 
-/* Tablets that have this very specific size*/
+/* Tablets that have this very specific size
 @media (min-width: 751px) and (max-width: 900px) {
 
     .services-outerList {
@@ -307,9 +353,9 @@
 
 }
 
-/* Large devices*/
+/* Large devices
 @media (min-width: 901px) {
-    /*Default configs*/
+    /*Default configs
     .servicios-txt {
         transform: translateY(-2%);
         padding: 30px;
@@ -319,4 +365,4 @@
         padding-left: 0;
     }
 
-}
+}*/

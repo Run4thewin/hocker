@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiciosComponent implements OnInit {
 
+  displayServicesList = true; 
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  
+  hideServicesList() {
+    this.displayServicesList = !this.displayServicesList;
+  }
 }
 
