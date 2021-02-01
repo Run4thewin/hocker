@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.vigilancia-div {
+    margin: 0 auto 50px auto;
+}
+
+.h3 {
+    color: #004077;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.services-image {
+    width: 70%;
+}
+
+.services-text {
+    background-color: #004077;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 13px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+
+    .image-div {
+        margin: 40px auto;
+    }
+
+    .vigilancia-div {
+        margin: 0 30px;
+        text-align: justify;
+    }
+}

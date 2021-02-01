@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ɵɵqueryRefresh } from '@angular/core';
 
 @Component({
   selector: 'app-servicios',
