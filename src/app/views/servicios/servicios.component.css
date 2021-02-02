@@ -131,6 +131,11 @@
 */
 
 @media (max-width: 750px) {
+
+    .outer-div {
+        width: 90vw;
+    }
+
     .image-div {
         margin-top: 40px;
     }
@@ -141,23 +146,18 @@
                              "item2 item3"
                              "item4 item5"
                              "item6 item7"; 
-        grid-gap: 20px;
-        margin-bottom: 50px;                          
     }
 
     .item1 {
         grid-area: item1;
     }
-    
-    /*Cards*/
-    
+        
     .card {
         width: 100%;
         height: 100%;
         font-size: 10px;
 
         display: inline-block;
-        font-size: 10px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border: none;
@@ -172,18 +172,16 @@
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    .services-card {
-        width: 100px;
-        display: block;
-        margin: 0 auto;
-    }
-
     .card-container {
         padding: 2px 16px 10px 16px;
     }
 
     .card-container > p {
-        text-align: center;
+        margin: 0 auto;
+    }
+
+    .services-card {
+        margin: 0 auto;
     }
 
     .image-div {
