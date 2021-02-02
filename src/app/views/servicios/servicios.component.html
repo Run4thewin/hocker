@@ -1,16 +1,86 @@
 <section class="container">
     <router-outlet></router-outlet>
-    <div class="row services-div" *ngIf="displayServicesList">
+    <div class="row services-div">
         <div class="col-md-6">
-            <h1 class="h1">Servicios</h1>
-            <ul>
-                <li class="services-list"><a routerLink="administracion">ADMINISTRACIÓN DE CONDOMINIOS</a></li>
-                <li class="services-list"><a routerLink="limpieza">LIMPIEZA RESIDENCIAL, COMERCIAL E INDUSTRIAL</a></li>
-                <li class="services-list"><a routerLink="consejeria">CONSERJERÍA</a></li>
-                <li class="services-list"><a routerLink="vigilancia">VIGILANCIA</a></li>
-                <li class="services-list"><a routerLink="personal">PERSONAL DE MANTENIMIENTO</a></li>
-                <li class="services-list"><a routerLink="mantenimiento">MANTENIMIENTO GENERAL</a></li>
-                <li class="services-list"><a routerLink="venta">VENTA Y RENTA DE PROPIEDADES</a></li>
+            <h3 class="h3">Servicios</h3>
+            <ul class="services-grid">
+
+                <li class="services-list item1">
+                    <a routerLink="administracion">
+                        <div class="card card1">
+                            <img src="assets/administracion-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>ADMINISTRACIÓN DE CONDOMINIOS</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item2">
+                    <a routerLink="limpieza">
+                        <div class="card">
+                            <img src="assets/limpieza-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>LIMPIEZA RESIDENCIAL, COMERCIAL E INDUSTRIAL</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item3">
+                    <a routerLink="conserjeria">
+                        <div class="card">
+                            <img src="assets/conserjeria-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>CONSERJERÍA</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item4">
+                    <a routerLink="vigilancia">
+                        <div class="card">
+                            <img src="assets/vigilancia-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>VIGILANCIA</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item5">
+                    <a routerLink="personal">
+                        <div class="card">
+                            <img src="assets/personal-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>PERSONAL DE MANTENIMIENTO</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item6">
+                    <a routerLink="mantenimiento">
+                        <div class="card">
+                            <img src="assets/mantenimiento-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>PERSONAL DE MANTENIMIENTO</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="services-list item7">
+                    <a routerLink="venta">
+                        <div class="card">
+                            <img src="assets/venta-icon.png" class="services-card">
+                            <div class="card-container">
+                                <p>VENTA Y RENTA DE PROPIEDADES</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
 

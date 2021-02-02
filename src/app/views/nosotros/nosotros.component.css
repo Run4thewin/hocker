@@ -4,8 +4,12 @@
     padding: 0;
 }
 
-.spacing {
+.spacing-100 {
     height: 100px;
+}
+
+.spacing-50 {
+    height: 50px;
 }
 
 hr {
@@ -20,10 +24,6 @@ hr {
     color: #004077;
 
     z-index: 5;
-}
-
-.fit-valores-img {
-    height: 90vh;
 }
 
 .nosotros-valores-img {
@@ -58,8 +58,8 @@ hr {
 }
 
 .nosotros-tenemos {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 0;
+    width: fit-content;
 }
 
 .mision-vision-valores {
@@ -100,7 +100,8 @@ hr {
 }
 
 .nosotros-vision-txt {
-    transform: translate(-40%, 20%);
+    transform: translate(-40%, 30%);
+    margin-bottom: 100px;
 }
 
 .nosotros-txt {   
@@ -169,6 +170,7 @@ hr {
 .nosotros-txt2 {
     text-align: left;
     color: #004077;
+    margin: auto 0;
 }
 
 /*Extra small devices*/ 
@@ -203,7 +205,7 @@ hr {
 
     .emptyBox {
         width: 10%;
-        height: 70vh;
+        height: 100%;
 
         border: 5px solid #004077;
     }
@@ -236,6 +238,9 @@ hr {
         transform: none;
     }
     
+    .spacing-100 {
+        display: none;
+    }
 }
 
 /*Small devices*/ 
@@ -266,13 +271,6 @@ hr {
         padding: 10px;
     }
 
-    .emptyBox {
-        width: 10%;
-        height: 80vh;
-
-        border: 5px solid #004077;
-    }
-
     hr {
         display: none;
     }
@@ -293,6 +291,9 @@ hr {
         transform: none;
     }
     
+    .spacing-100 {
+        display: none;
+    }
 }
 
 /*Medium devices*/ 
@@ -324,9 +325,7 @@ hr {
 
     .emptyBox {
         width: 40%;
-        height: 70vh;
-
-        border: 6px solid #004077;
+        height: 100%;
     }
 
     hr {
@@ -383,10 +382,7 @@ hr {
     }
 
     .emptyBox {
-        width: 10%;
-        height: 60vh;
-
-        border: 5px solid #004077;
+        height: 100%;
     }
 
     hr {
@@ -452,7 +448,6 @@ hr {
 
     .emptyBox {
         width: 25%;
-        height: 40vh;
     }
 
     .nosotros-vision-txt {

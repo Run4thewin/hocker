@@ -1,0 +1,41 @@
+* {
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.limpieza-div {
+    margin-bottom: 50px;
+}
+
+.h3 {
+    color: #004077;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
+}
+
+.services-text {
+    width: fit-content;
+    background-color: #004077;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 13px;
+}
+
+@media (max-width: 650px) {
+
+    .image-div {
+        margin: 40px auto;
+    }
+
+    .limpieza-div {
+        margin: 0 30px;
+    }
+}
