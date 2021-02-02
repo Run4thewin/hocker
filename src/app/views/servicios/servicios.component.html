@@ -1,8 +1,9 @@
 <section class="container">
     <router-outlet></router-outlet>
     <div class="row services-div">
-        <div class="col-md-6">
-            <h3 class="h3">Servicios</h3>
+        <h3 class="h3">Servicios</h3>
+
+        <div class="col-md-12 outer-div">
             <ul class="services-grid">
 
                 <li class="services-list item1">
@@ -83,16 +84,19 @@
                 </li>
             </ul>
         </div>
-
-        <!--Main image begins-->
-        <div class="col-md-6 text-center image-div">
-            <img class="services-image" src="assets/building.jpg">
-            <p class="services-text">En Höcker nos hemos encargado de reunir a un grupo de profesionales con 
-                el fin de consolidar un concepto innovador en la administración de inmuebles, teniendo como 
-                factor preponderante el incrementar de manera gradual la plusvalía de su patrimonio.
-            </p>
-        </div>
-        <!--Main image ends-->
     </div>
+
+    <!--
+    <div class="row">
+                <!--Main image begins--
+                <div class="col-md-6 text-center image-div">
+                    <img class="services-image" src="assets/building.jpg">
+                    <p class="services-text">En Höcker nos hemos encargado de reunir a un grupo de profesionales con 
+                        el fin de consolidar un concepto innovador en la administración de inmuebles, teniendo como 
+                        factor preponderante el incrementar de manera gradual la plusvalía de su patrimonio.
+                    </p>
+                </div>
+                <!--Main image ends--
+    </div>-->
 </section>
 <app-register-form></app-register-form>
