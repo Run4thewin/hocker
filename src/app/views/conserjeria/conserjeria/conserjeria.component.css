@@ -32,6 +32,10 @@
     margin: 0 auto;
 }
 
+.conserjeria-div {
+    text-align: justify;
+}
+
 @media (max-width: 760px) {
 
     .image-div {
@@ -40,6 +44,5 @@
 
     .conserjeria-div {
         margin: 0 30px;
-        text-align: justify;
     }
 }

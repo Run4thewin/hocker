@@ -20,6 +20,11 @@ span {
     font-weight: bold;
 }
 
+.services-image {
+    width: 40%;
+    align-self: center;
+}
+
 .services-text {
     width: fit-content;
     background-color: #004077;
@@ -37,5 +42,6 @@ span {
 
     .limpieza-div {
         margin: 0 30px;
+        text-align: justify;
     }
 }
