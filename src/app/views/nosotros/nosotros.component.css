@@ -181,7 +181,7 @@ hr {
         margin-left: -150px;
         /*test version*/
         position: relative;
-        margin-top: 50px;
+        margin-top: 50px;        
     }
     
     .nosotros-txt1 h1 {
@@ -224,6 +224,7 @@ hr {
 
     .fit-all {
         height: fit-content;
+        margin-top: 100px;
     }
 
     .nosotros-mision-img, 
@@ -294,6 +295,11 @@ hr {
     .spacing-100 {
         display: none;
     }
+
+    .fit-all {
+        height: fit-content;
+        margin-top: 100px;
+    }
 }
 
 /*Medium devices*/ 
@@ -350,6 +356,11 @@ hr {
         display: block;
         margin: 10px;
         transform: none;
+    }
+
+    .fit-all {
+        margin-top: 100px;
+        height: fit-content;
     }
     
 }
@@ -413,6 +424,11 @@ hr {
         display: block;
         margin: 10px auto;
         transform: none;
+    }
+
+    .fit-all {
+        margin-top: 100px;
+        height: fit-content;
     }
     
 }

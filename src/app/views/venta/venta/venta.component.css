@@ -9,7 +9,12 @@
 }
 
 .venta-div {
-    margin: 0 auto 50px auto;
+    margin: 0 30px 50px 30px;
+    text-align: justify;
+}
+
+.space-right {
+    padding-right: 20px;
 }
 
 .h3 {
@@ -44,6 +49,5 @@ span {
 
     .venta-div {
         margin: 0 30px;
-        text-align: justify;
     }
 }

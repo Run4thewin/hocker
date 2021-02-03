@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class HttpService {
-
+  
   constructor(private http : HttpClient) { }
 
   options!: {
@@ -24,6 +24,20 @@ export class HttpService {
 
     return this.http.post(this.apiURL, message, this.options);
     
+  }
+
+  //Cookies
+
+  //Checking if cookies have been accepted before
+  acceptedCookies() {
+    //returns true if localStorage already has a cookieSeen item as "accepted"
+    return localStorage.getItem("cookieSeen") == "accepted";
+  }
+
+  //Accepting cookies alert
+  okCookies() {
+    localStorage.setItem("cookieSeen", "accepted")
+    return this.acceptedCookies();
   }
 }
 
