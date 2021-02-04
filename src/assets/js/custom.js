@@ -4,6 +4,7 @@ function closeModal() {
 
 //Cookies consent function
 // (function{}) is the new onready
+/*
 (function(){   
     setTimeout(function () {
 
@@ -23,6 +24,7 @@ function closeModal() {
 function closeAlert() {
     $("#cookiesAlert").fadeOut(200);
 }
+
 
 //Servicios
 
