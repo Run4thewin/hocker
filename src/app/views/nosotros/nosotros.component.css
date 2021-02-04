@@ -239,7 +239,7 @@ hr {
         transform: none;
     }
     
-    .spacing-100 {
+    .spacing-100, .spacing-50{
         display: none;
     }
 }
@@ -292,7 +292,7 @@ hr {
         transform: none;
     }
     
-    .spacing-100 {
+    .spacing-100, .spacing-50{
         display: none;
     }
 
@@ -363,6 +363,9 @@ hr {
         height: fit-content;
     }
     
+    .spacing-100, .spacing-50{
+        display: none;
+    }
 }
 
 /* Tablets that have this very specific size*/
@@ -429,6 +432,10 @@ hr {
     .fit-all {
         margin-top: 100px;
         height: fit-content;
+    }
+
+    .spacing-100, .spacing-50{
+        display: none;
     }
     
 }
