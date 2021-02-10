@@ -121,7 +121,11 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 */
 
-@media (max-width: 750px) {
+@media (min-width: 996) {
+
+}
+
+@media (max-width: 997px) {
 
     .outer-div {
         width: 90vw;
@@ -169,7 +173,7 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 
     .card-container > p {
         margin: 0 auto;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .services-card {
@@ -180,5 +184,22 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         margin: auto;
     }
     
+}
+
+@media (max-width: 375px) {
+    
+    .card-container > p {
+        margin: 0 auto;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 374px) {
+    
+    .card-container > p {
+        margin: 0 auto;
+        font-size: 7px;
+    }
+
 }
 
