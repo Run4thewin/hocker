@@ -10,7 +10,7 @@ export class HttpService {
   constructor(private http : HttpClient) { }
 
   options!: {
-    headers?: HttpHeaders | { [header: string]: string | string[] };
+    headers?: HttpHeaders | { [header: string]: string | string[] }
   }
 
   private apiURL = "https://us-east1-software-factory-295023.cloudfunctions.net/sendEmail";
@@ -18,7 +18,7 @@ export class HttpService {
   sendForm(form : any) : Observable<any>{
 
     const message = {
-        "mailTo": "brendaluizacpereira@gmail.com",
+        "mailTo": "santos.gabriel.mail@gmail.com",
         "message": form.nombre + form.email + form.telefono + form.mensaje
     }
 

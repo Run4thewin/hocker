@@ -37,7 +37,9 @@ export class RegisterFormComponent implements OnInit {
 
   onSubmit() {
     
-    this.http.sendForm(this.contactForm.value);
+    this.http.sendForm(this.contactForm.value).subscribe((data)=>{
+      console.log(data);
+    });
 
     this.sentMessage = true;
 
