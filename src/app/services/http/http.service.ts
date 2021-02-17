@@ -18,8 +18,8 @@ export class HttpService {
   sendForm(form : any) : Observable<any>{
 
     const message = {
-        "mailTo": "santos.gabriel.mail@gmail.com",
-        "message": form.nombre + form.email + form.telefono + form.mensaje
+        "mailTo": "info@hocker.com.mx",
+        "message": "Nombre: " + form.nombre + " Email: " +form.email + " telefono: " + form.telefono +  " Mensaje: " +form.mensaje
     }
 
     return this.http.post(this.apiURL, message, this.options);
