@@ -13,13 +13,14 @@ export class HttpService {
     headers?: HttpHeaders | { [header: string]: string | string[] }
   }
 
-  private apiURL = "https://us-east1-software-factory-295023.cloudfunctions.net/sendEmail";
+  private apiURL = "https://us-east1-hocker-299913.cloudfunctions.net/sendEmail";
 
   sendForm(form : any) : Observable<any>{
 
     const message = {
         "mailTo": "info@hocker.com.mx",
-        "message": "Nombre: " + form.nombre + " Email: " +form.email + " telefono: " + form.telefono +  " Mensaje: " +form.mensaje
+	"mailFrom":"info@hocker.com.mx",
+        "message": "Nombre: " + form.nombre + " <br/>Email: " +form.email + " <br/>telefono: " + form.telefono +  " <br/>Mensaje: " +form.mensaje
     }
 
     return this.http.post(this.apiURL, message, this.options);
